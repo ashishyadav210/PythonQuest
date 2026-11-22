@@ -1,0 +1,1 @@
+window.PQ_CONFIG={social:{instagram:"https://instagram.com/6_hf0",github:"https://github.com/ashishyadav210",youtube:"https://youtube.com/@Unknown_Reason",telegram:"https://t.me/Unknown_Reason"},passingScore:50,xpPerPass:25};
