@@ -1,0 +1,57 @@
+{
+  "topic": "16",
+  "title": "Comprehensions",
+  "intro": "Learn the basic ideas of Comprehensions in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "List comprehension",
+      "text": "A list comprehension creates a list from an expression and an iteration in a compact form.",
+      "code": "[x * 2 for x in nums]"
+    },
+    {
+      "heading": "Comprehension structure",
+      "text": "The basic form is [expression for item in iterable].",
+      "code": "[x for x in nums]"
+    },
+    {
+      "heading": "Condition in comprehension",
+      "text": "An if condition can filter which items are included.",
+      "code": "[x for x in nums if x % 2 == 0]"
+    },
+    {
+      "heading": "Dict comprehension",
+      "text": "A dictionary comprehension creates key-value pairs in a dictionary.",
+      "code": "{x: x*x for x in nums}"
+    },
+    {
+      "heading": "Set comprehension",
+      "text": "A set comprehension creates a set of computed values.",
+      "code": "{x*x for x in nums}"
+    },
+    {
+      "heading": "range() with comprehension",
+      "text": "range() is often used when a comprehension needs a sequence of numbers.",
+      "code": "[x for x in range(5)]"
+    },
+    {
+      "heading": "Calling functions",
+      "text": "The expression part of a comprehension can call a function.",
+      "code": "[str(x) for x in nums]"
+    },
+    {
+      "heading": "Readable code",
+      "text": "Comprehensions are useful when the logic is simple. Very complex comprehensions are harder to read than normal loops.",
+      "code": ""
+    },
+    {
+      "heading": "Normal loop alternative",
+      "text": "A normal for loop is often better when there are many steps or nested conditions.",
+      "code": "result=[]\nfor x in nums:\n    result.append(x*2)"
+    },
+    {
+      "heading": "Result type",
+      "text": "The brackets used by the comprehension determine its result type: [] for list, {} with key:value for dict, and {} with an expression for set.",
+      "code": ""
+    }
+  ]
+}

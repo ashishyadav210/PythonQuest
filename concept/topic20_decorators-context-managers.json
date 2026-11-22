@@ -1,0 +1,62 @@
+{
+  "topic": "20",
+  "title": "Decorators & Context Managers",
+  "intro": "Learn the basic ideas of Decorators & Context Managers in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Decorator",
+      "text": "A decorator is a callable that wraps another function or class to add or modify behavior.",
+      "code": "@decorator"
+    },
+    {
+      "heading": "Decorator syntax",
+      "text": "Putting @name above a function applies that decorator to the function.",
+      "code": "@logged\ndef add(): ..."
+    },
+    {
+      "heading": "@property",
+      "text": "@property is a built-in decorator that lets a method be accessed like an attribute.",
+      "code": "@property\ndef name(self): ..."
+    },
+    {
+      "heading": "Wrapper function",
+      "text": "A decorator often creates a wrapper function that runs extra code before or after the original function.",
+      "code": "def wrapper(*args): ..."
+    },
+    {
+      "heading": "functools.wraps",
+      "text": "functools.wraps helps a wrapper preserve useful metadata such as the original function name and docstring.",
+      "code": "@wraps(func)"
+    },
+    {
+      "heading": "Common decorator uses",
+      "text": "Decorators are often used for logging, authorization, caching, timing and validation.",
+      "code": ""
+    },
+    {
+      "heading": "Context manager",
+      "text": "A context manager controls setup and cleanup around a block of code. It is commonly used with with.",
+      "code": "with open(\"data.txt\") as f: ..."
+    },
+    {
+      "heading": "with statement",
+      "text": "with enters a context and ensures its cleanup behavior is performed when the block finishes.",
+      "code": "with resource() as r: ..."
+    },
+    {
+      "heading": "__enter__",
+      "text": "A custom context manager can define __enter__() for setup and for the value returned after as.",
+      "code": "def __enter__(self): ..."
+    },
+    {
+      "heading": "__exit__",
+      "text": "__exit__ handles cleanup and receives information about an exception if one occurred.",
+      "code": "def __exit__(self, exc_type, exc, tb): ..."
+    },
+    {
+      "heading": "Safe resource handling",
+      "text": "Context managers are useful for files, locks, database connections and other resources that need reliable cleanup.",
+      "code": ""
+    }
+  ]
+}

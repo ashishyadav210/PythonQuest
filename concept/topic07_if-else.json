@@ -1,0 +1,57 @@
+{
+  "topic": "07",
+  "title": "if, elif & else",
+  "intro": "Learn the basic ideas of if, elif & else in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "if statement",
+      "text": "if runs a block when its condition is true. It is used to make decisions.",
+      "code": "if age >= 18:\n    print(\"Adult\")"
+    },
+    {
+      "heading": "Condition",
+      "text": "A condition is an expression whose result is treated as True or False.",
+      "code": "score >= 40"
+    },
+    {
+      "heading": "elif",
+      "text": "elif means “else if”. It checks another condition when earlier if/elif conditions were false.",
+      "code": "if x > 0:\n    ...\nelif x == 0:\n    ..."
+    },
+    {
+      "heading": "else",
+      "text": "else provides the alternative block when no previous if or elif condition is true.",
+      "code": "if ok:\n    ...\nelse:\n    ..."
+    },
+    {
+      "heading": "Comparison in conditions",
+      "text": "Operators such as ==, !=, >, <, >= and <= are commonly used to compare values.",
+      "code": "marks >= 40"
+    },
+    {
+      "heading": "Indentation in decisions",
+      "text": "The statements controlled by if, elif and else must be indented consistently.",
+      "code": "if ok:\n    print(\"Yes\")"
+    },
+    {
+      "heading": "Multiple branches",
+      "text": "One if can be followed by multiple elif branches and an optional else.",
+      "code": "if n > 0:\n    ...\nelif n < 0:\n    ...\nelse:\n    ..."
+    },
+    {
+      "heading": "Truthy and falsy values",
+      "text": "Python treats values such as 0, empty strings and empty collections as false in conditions.",
+      "code": "if items:\n    print(\"Has items\")"
+    },
+    {
+      "heading": "Nested conditions",
+      "text": "An if statement can appear inside another block when a decision depends on another decision.",
+      "code": "if user:\n    if user.active:\n        ..."
+    },
+    {
+      "heading": "Why use conditions?",
+      "text": "Conditions let a program choose different actions based on data instead of always following one fixed path.",
+      "code": ""
+    }
+  ]
+}

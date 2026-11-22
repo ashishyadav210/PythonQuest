@@ -1,0 +1,57 @@
+{
+  "topic": "04",
+  "title": "Data Types",
+  "intro": "Learn the basic ideas of Data Types in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Integer (int)",
+      "text": "int stores whole numbers without a decimal part.",
+      "code": "count = 10"
+    },
+    {
+      "heading": "Float (float)",
+      "text": "float stores numbers that have a decimal part.",
+      "code": "price = 99.5"
+    },
+    {
+      "heading": "String (str)",
+      "text": "str stores text written inside quotes.",
+      "code": "name = \"Sam\""
+    },
+    {
+      "heading": "Boolean (bool)",
+      "text": "bool represents a logical value: True or False.",
+      "code": "logged_in = True"
+    },
+    {
+      "heading": "List",
+      "text": "A list is an ordered, changeable collection. It is written with square brackets.",
+      "code": "nums = [1, 2, 3]"
+    },
+    {
+      "heading": "Tuple",
+      "text": "A tuple is an ordered collection that cannot normally be changed after creation. It uses parentheses.",
+      "code": "point = (10, 20)"
+    },
+    {
+      "heading": "Set",
+      "text": "A set is a collection of unique elements. Duplicate values are removed.",
+      "code": "tags = {\"python\", \"code\"}"
+    },
+    {
+      "heading": "Dictionary",
+      "text": "A dictionary stores data as key-value pairs. It is written using braces with keys and values.",
+      "code": "user = {\"name\": \"Sam\"}"
+    },
+    {
+      "heading": "None",
+      "text": "None represents the absence of a value. It is commonly used when a value is not available or a function returns nothing explicitly.",
+      "code": "result = None"
+    },
+    {
+      "heading": "Checking a type",
+      "text": "type() returns the type of a value or object.",
+      "code": "type(5.0)  # float"
+    }
+  ]
+}

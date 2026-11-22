@@ -1,0 +1,57 @@
+{
+  "topic": "14",
+  "title": "Exception Handling",
+  "intro": "Learn the basic ideas of Exception Handling in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Exception",
+      "text": "An exception is an event raised when something goes wrong while a program is running.",
+      "code": ""
+    },
+    {
+      "heading": "try",
+      "text": "Code that may raise an exception is placed in a try block.",
+      "code": "try:\n    value = int(text)"
+    },
+    {
+      "heading": "except",
+      "text": "except handles an exception raised by the try block.",
+      "code": "except ValueError:\n    ..."
+    },
+    {
+      "heading": "Specific exceptions",
+      "text": "Catching a specific exception is clearer and safer than catching everything blindly.",
+      "code": "except ValueError:"
+    },
+    {
+      "heading": "else",
+      "text": "The else block runs when the try block finishes without an exception.",
+      "code": "try:\n    ...\nexcept ValueError:\n    ...\nelse:\n    ..."
+    },
+    {
+      "heading": "finally",
+      "text": "finally runs whether an exception occurred or not, so it is useful for cleanup.",
+      "code": "finally:\n    close_resource()"
+    },
+    {
+      "heading": "raise",
+      "text": "raise lets your code deliberately create an exception when a condition is invalid.",
+      "code": "raise ValueError(\"Invalid age\")"
+    },
+    {
+      "heading": "Built-in exceptions",
+      "text": "Python provides common exception types such as ValueError, TypeError, KeyError and FileNotFoundError.",
+      "code": ""
+    },
+    {
+      "heading": "Multiple except blocks",
+      "text": "A try block may have multiple except blocks to handle different exception types differently.",
+      "code": "except ValueError:\n    ...\nexcept TypeError:\n    ..."
+    },
+    {
+      "heading": "Do not hide errors",
+      "text": "Silently ignoring every exception can hide real bugs. Handle errors meaningfully or let unexpected errors surface.",
+      "code": ""
+    }
+  ]
+}

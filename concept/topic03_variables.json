@@ -1,0 +1,57 @@
+{
+  "topic": "03",
+  "title": "Variables",
+  "intro": "Learn the basic ideas of Variables in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "What is a variable?",
+      "text": "A variable is a name that refers to a value. It lets a program store and reuse data.",
+      "code": "age = 20"
+    },
+    {
+      "heading": "Assignment",
+      "text": "The = operator assigns the value on its right to the name on its left. It does not mean equality testing.",
+      "code": "score = 100"
+    },
+    {
+      "heading": "Reassignment",
+      "text": "A variable can be given a new value later. The same name can therefore refer to a different value.",
+      "code": "x = 10\nx = 20"
+    },
+    {
+      "heading": "Variable names",
+      "text": "Names should start with a letter or underscore and may contain letters, digits and underscores. They cannot start with a digit.",
+      "code": "user_name = \"Sam\""
+    },
+    {
+      "heading": "Case sensitivity",
+      "text": "Python variable names are case-sensitive. age, Age and AGE are different names.",
+      "code": "age = 20\nAge = 30"
+    },
+    {
+      "heading": "Storing text",
+      "text": "A variable can refer to a string value.",
+      "code": "name = \"Sam\""
+    },
+    {
+      "heading": "Storing numbers",
+      "text": "Variables can also refer to integers, floats and other numeric values.",
+      "code": "marks = 95"
+    },
+    {
+      "heading": "Reusing data",
+      "text": "Variables make it easy to use the same value in calculations or output without writing it again.",
+      "code": "total = price * qty"
+    },
+    {
+      "heading": "Different value types",
+      "text": "Python variables are dynamically typed, so a name can refer to values of different types at different times.",
+      "code": "x = 10\nx = \"ten\""
+    },
+    {
+      "heading": "Good naming",
+      "text": "Meaningful names make code easier to understand. Prefer names such as total_price over unclear names such as x when the meaning matters.",
+      "code": "total_price = 500"
+    }
+  ]
+}

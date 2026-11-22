@@ -1,0 +1,62 @@
+{
+  "topic": "25",
+  "title": "Testing, Debugging & Logging",
+  "intro": "Learn the basic ideas of Testing, Debugging & Logging in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Testing",
+      "text": "Testing checks whether code behaves as expected. Automated tests can be run repeatedly after changes.",
+      "code": ""
+    },
+    {
+      "heading": "Unit test",
+      "text": "A unit test checks a small, focused unit of code such as a function.",
+      "code": "def test_add():\n    assert add(2,3) == 5"
+    },
+    {
+      "heading": "assert",
+      "text": "assert checks that a condition is true and raises an error when it is false.",
+      "code": "assert total == 10"
+    },
+    {
+      "heading": "Debugging",
+      "text": "Debugging is the process of finding and fixing problems in a program.",
+      "code": ""
+    },
+    {
+      "heading": "Breakpoint",
+      "text": "A breakpoint pauses program execution so you can inspect variables and program state.",
+      "code": ""
+    },
+    {
+      "heading": "Traceback",
+      "text": "A traceback shows where an exception occurred and helps locate the failing code.",
+      "code": ""
+    },
+    {
+      "heading": "Logging",
+      "text": "Logging records useful runtime information that can help understand what a program is doing.",
+      "code": "import logging"
+    },
+    {
+      "heading": "Log levels",
+      "text": "Levels such as DEBUG, INFO, WARNING, ERROR and CRITICAL classify the importance of messages.",
+      "code": "logging.info(\"Started\")"
+    },
+    {
+      "heading": "Regression",
+      "text": "A regression happens when a change breaks behavior that previously worked. Tests help catch regressions.",
+      "code": ""
+    },
+    {
+      "heading": "Investigating failures",
+      "text": "A failing test is information: inspect the failure, reproduce it, find the cause and fix the underlying problem.",
+      "code": ""
+    },
+    {
+      "heading": "Protect secrets",
+      "text": "Logs should not expose passwords, API keys or other sensitive values.",
+      "code": ""
+    }
+  ]
+}

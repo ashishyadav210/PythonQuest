@@ -1,0 +1,62 @@
+{
+  "topic": "26",
+  "title": "Type Hints & Dataclasses",
+  "intro": "Learn the basic ideas of Type Hints & Dataclasses in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Type hint",
+      "text": "A type hint documents the type a variable, parameter or return value is expected to use.",
+      "code": "age: int"
+    },
+    {
+      "heading": "Parameter hint",
+      "text": "A function parameter can include a type hint after its name.",
+      "code": "def add(a: int, b: int): ..."
+    },
+    {
+      "heading": "Return hint",
+      "text": "A return annotation documents the expected return type.",
+      "code": "def add(a: int, b: int) -> int: ..."
+    },
+    {
+      "heading": "Tooling benefit",
+      "text": "Type hints improve readability and help editors, linters and type checkers understand code.",
+      "code": ""
+    },
+    {
+      "heading": "Runtime enforcement",
+      "text": "Python does not automatically enforce normal type hints at runtime. They are mainly annotations unless extra checking is used.",
+      "code": ""
+    },
+    {
+      "heading": "Union with |",
+      "text": "Modern Python can use | to indicate that a value may have more than one type.",
+      "code": "str | None"
+    },
+    {
+      "heading": "Generic types",
+      "text": "Generic types describe the type of items inside a container or the parameters of a reusable type.",
+      "code": "list[str]"
+    },
+    {
+      "heading": "Dataclass",
+      "text": "A dataclass is a convenient way to define classes mainly used to store data.",
+      "code": "@dataclass"
+    },
+    {
+      "heading": "@dataclass",
+      "text": "The dataclass decorator can generate common methods and reduce repetitive class boilerplate.",
+      "code": "@dataclass\nclass User: ..."
+    },
+    {
+      "heading": "Dataclass field",
+      "text": "A field is a declared piece of data stored by a dataclass instance.",
+      "code": "name: str"
+    },
+    {
+      "heading": "Useful annotations",
+      "text": "Good type hints should describe the real intended data and remain understandable to the people maintaining the code.",
+      "code": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "topic": "17",
+  "title": "OOP Basics",
+  "intro": "Learn the basic ideas of OOP Basics in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Class",
+      "text": "A class is a blueprint that defines the data and behavior an object can have.",
+      "code": "class Car:\n    pass"
+    },
+    {
+      "heading": "Object",
+      "text": "An object is an instance created from a class.",
+      "code": "car = Car()"
+    },
+    {
+      "heading": "__init__",
+      "text": "__init__ is commonly used to initialize an object’s attributes when it is created.",
+      "code": "def __init__(self, name):\n    self.name = name"
+    },
+    {
+      "heading": "self",
+      "text": "self refers to the current object instance inside an instance method.",
+      "code": "self.name = name"
+    },
+    {
+      "heading": "Attribute",
+      "text": "An attribute is data stored on an object or associated with a class.",
+      "code": "car.name"
+    },
+    {
+      "heading": "Method",
+      "text": "A method is a function defined inside a class and used through an object or class.",
+      "code": "car.start()"
+    },
+    {
+      "heading": "Creating objects",
+      "text": "Calling a class such as Car() creates an object instance.",
+      "code": "car = Car()"
+    },
+    {
+      "heading": "Encapsulation",
+      "text": "Encapsulation means keeping related data and behavior together and controlling how internal details are accessed.",
+      "code": ""
+    },
+    {
+      "heading": "Inheritance",
+      "text": "Inheritance lets one class reuse or extend behavior from another class.",
+      "code": "class Bike(Vehicle):\n    pass"
+    },
+    {
+      "heading": "Polymorphism",
+      "text": "Polymorphism lets different objects be used through a common operation or interface.",
+      "code": ""
+    },
+    {
+      "heading": "Class design",
+      "text": "Small, focused classes are usually easier to understand, test and maintain.",
+      "code": ""
+    }
+  ]
+}

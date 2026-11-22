@@ -1,0 +1,67 @@
+{
+  "topic": "27",
+  "title": "Async, Threads & Processes",
+  "intro": "Learn the basic ideas of Async, Threads & Processes in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Asynchronous programming",
+      "text": "Async programming lets a program make progress on other tasks while waiting for operations such as network I/O.",
+      "code": "async def fetch(): ..."
+    },
+    {
+      "heading": "async def",
+      "text": "async def defines a coroutine function. Calling it creates an awaitable coroutine.",
+      "code": "async def work(): ..."
+    },
+    {
+      "heading": "await",
+      "text": "await pauses the current coroutine until an awaitable completes, allowing the event loop to run other work.",
+      "code": "result = await fetch()"
+    },
+    {
+      "heading": "Event loop",
+      "text": "An event loop schedules and runs asynchronous tasks and resumes them when they are ready.",
+      "code": ""
+    },
+    {
+      "heading": "gather()",
+      "text": "asyncio.gather() is commonly used to wait for multiple awaitables together.",
+      "code": "await asyncio.gather(a(), b())"
+    },
+    {
+      "heading": "I/O-bound work",
+      "text": "Async concurrency is especially useful when work spends time waiting for network, file or other I/O operations.",
+      "code": ""
+    },
+    {
+      "heading": "Thread",
+      "text": "A thread is a path of execution inside a process. Threads can share memory in that process.",
+      "code": ""
+    },
+    {
+      "heading": "Process",
+      "text": "A process has its own memory space and can be useful for CPU-heavy work.",
+      "code": ""
+    },
+    {
+      "heading": "CPU-bound work",
+      "text": "CPU-heavy tasks may benefit from multiple processes so work can use multiple CPU cores more effectively.",
+      "code": ""
+    },
+    {
+      "heading": "Blocking calls",
+      "text": "A blocking operation inside async code can stop other async tasks from making progress until it finishes.",
+      "code": ""
+    },
+    {
+      "heading": "Race condition",
+      "text": "A race condition occurs when the result depends on the timing of concurrent access to shared state.",
+      "code": ""
+    },
+    {
+      "heading": "Thread safety",
+      "text": "Shared mutable state between threads must be protected or designed carefully to avoid inconsistent results.",
+      "code": ""
+    }
+  ]
+}

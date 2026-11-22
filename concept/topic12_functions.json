@@ -1,0 +1,67 @@
+{
+  "topic": "12",
+  "title": "Functions",
+  "intro": "Learn the basic ideas of Functions in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "What is a function?",
+      "text": "A function is a reusable block of code that performs a task. It is defined with def.",
+      "code": "def add(a, b):\n    return a + b"
+    },
+    {
+      "heading": "Function definition",
+      "text": "A function definition gives the function a name, parameters and a body.",
+      "code": "def greet(name):\n    print(name)"
+    },
+    {
+      "heading": "Function call",
+      "text": "Calling a function runs its body.",
+      "code": "greet(\"Sam\")"
+    },
+    {
+      "heading": "Parameter",
+      "text": "A parameter is a named input written in a function definition.",
+      "code": "def greet(name):"
+    },
+    {
+      "heading": "Argument",
+      "text": "An argument is the value supplied when a function is called.",
+      "code": "greet(\"Sam\")"
+    },
+    {
+      "heading": "return",
+      "text": "return sends a value back to the caller and ends that function execution.",
+      "code": "return total"
+    },
+    {
+      "heading": "Default parameter",
+      "text": "A parameter can have a default value used when the caller does not provide one.",
+      "code": "def greet(name=\"Guest\"): ..."
+    },
+    {
+      "heading": "Local variable",
+      "text": "A variable created inside a function normally belongs to that function’s local scope.",
+      "code": "def f():\n    x = 10"
+    },
+    {
+      "heading": "Scope",
+      "text": "Scope describes where a name can be accessed. Python has local, enclosing, global and built-in name scopes.",
+      "code": ""
+    },
+    {
+      "heading": "Multiple return values",
+      "text": "A function can return multiple values; Python commonly packages them into a tuple.",
+      "code": "return x, y"
+    },
+    {
+      "heading": "*args",
+      "text": "*args collects extra positional arguments into a tuple inside the function.",
+      "code": "def f(*args): ..."
+    },
+    {
+      "heading": "**kwargs",
+      "text": "**kwargs collects extra keyword arguments into a dictionary.",
+      "code": "def f(**kwargs): ..."
+    }
+  ]
+}

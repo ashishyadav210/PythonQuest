@@ -1,0 +1,62 @@
+{
+  "topic": "21",
+  "title": "Regex, JSON & Dates",
+  "intro": "Learn the basic ideas of Regex, JSON & Dates in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Regex",
+      "text": "Regular expressions are patterns used to search, match or validate text.",
+      "code": "r\"\\d+\""
+    },
+    {
+      "heading": "re module",
+      "text": "Python’s re module provides functions and objects for working with regular expressions.",
+      "code": "import re"
+    },
+    {
+      "heading": "Search",
+      "text": "re.search() looks for a matching pattern and returns a match object when found, otherwise None.",
+      "code": "re.search(r\"cat\", text)"
+    },
+    {
+      "heading": "Match object",
+      "text": "A regex match object contains information about the part of the text that matched the pattern.",
+      "code": ""
+    },
+    {
+      "heading": "Input validation",
+      "text": "Regex can check whether text follows an expected pattern such as a simple code or identifier.",
+      "code": ""
+    },
+    {
+      "heading": "JSON",
+      "text": "JSON is a text format commonly used to represent structured data.",
+      "code": "{\"name\": \"Sam\"}"
+    },
+    {
+      "heading": "json module",
+      "text": "Python’s json module converts between JSON text and Python data structures.",
+      "code": "import json"
+    },
+    {
+      "heading": "json.loads()",
+      "text": "json.loads() parses JSON text and returns the corresponding Python data.",
+      "code": "json.loads(text)"
+    },
+    {
+      "heading": "json.dumps()",
+      "text": "json.dumps() converts Python data into JSON-formatted text.",
+      "code": "json.dumps(data)"
+    },
+    {
+      "heading": "JSON mappings",
+      "text": "A JSON object commonly maps to a Python dictionary, while a JSON array commonly maps to a Python list.",
+      "code": ""
+    },
+    {
+      "heading": "datetime",
+      "text": "The datetime module provides classes for working with dates and times.",
+      "code": "from datetime import datetime"
+    }
+  ]
+}

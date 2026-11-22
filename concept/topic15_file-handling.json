@@ -1,0 +1,62 @@
+{
+  "topic": "15",
+  "title": "File Handling",
+  "intro": "Learn the basic ideas of File Handling in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "open()",
+      "text": "open() creates a file object for reading or writing a file.",
+      "code": "f = open(\"data.txt\", \"r\")"
+    },
+    {
+      "heading": "Read mode",
+      "text": "The r mode opens a file for reading.",
+      "code": "open(\"data.txt\", \"r\")"
+    },
+    {
+      "heading": "Write mode",
+      "text": "The w mode writes a file and replaces existing content.",
+      "code": "open(\"data.txt\", \"w\")"
+    },
+    {
+      "heading": "Append mode",
+      "text": "The a mode adds new content at the end of a file.",
+      "code": "open(\"data.txt\", \"a\")"
+    },
+    {
+      "heading": "read()",
+      "text": "read() returns file content as a string.",
+      "code": "f.read()"
+    },
+    {
+      "heading": "readlines()",
+      "text": "readlines() reads the lines and returns them as a list.",
+      "code": "f.readlines()"
+    },
+    {
+      "heading": "write()",
+      "text": "write() writes text to a file and returns the number of characters written.",
+      "code": "f.write(\"Hello\")"
+    },
+    {
+      "heading": "with open()",
+      "text": "Using with automatically closes the file when the block ends, even if an exception occurs.",
+      "code": "with open(\"data.txt\") as f:\n    text = f.read()"
+    },
+    {
+      "heading": "encoding",
+      "text": "Specifying an encoding such as UTF-8 helps Python interpret text correctly.",
+      "code": "open(\"data.txt\", encoding=\"utf-8\")"
+    },
+    {
+      "heading": "FileNotFoundError",
+      "text": "Reading a file that does not exist can raise FileNotFoundError.",
+      "code": ""
+    },
+    {
+      "heading": "Closing files",
+      "text": "A file should be closed after use. The with statement is the preferred simple approach.",
+      "code": ""
+    }
+  ]
+}

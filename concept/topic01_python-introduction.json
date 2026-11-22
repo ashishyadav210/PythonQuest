@@ -1,0 +1,57 @@
+{
+  "topic": "01",
+  "title": "Python Introduction",
+  "intro": "Learn the basic ideas of Python Introduction in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "What is Python?",
+      "text": "Python is a high-level, general-purpose programming language. It is designed to make code easy to read and write.",
+      "code": "print(\"Hello, Python!\")"
+    },
+    {
+      "heading": "Why is Python popular?",
+      "text": "Python has simple, readable syntax and a large standard library. It is used in web development, automation, data work, AI and many other areas.",
+      "code": ""
+    },
+    {
+      "heading": "Python source files",
+      "text": "A normal Python program is saved with the .py extension. For example, a file can be named hello.py.",
+      "code": "hello.py"
+    },
+    {
+      "heading": "Basic Python syntax",
+      "text": "Python uses words, symbols and indentation to form valid statements. A simple statement can assign a value to a variable.",
+      "code": "name = \"Ashish\""
+    },
+    {
+      "heading": "Running Python code",
+      "text": "The Python interpreter reads Python code and executes it. This lets you run a .py program from a Python installation.",
+      "code": "python hello.py"
+    },
+    {
+      "heading": "print() function",
+      "text": "print() displays information on the screen. It is one of the first functions beginners use.",
+      "code": "print(\"Hello\")"
+    },
+    {
+      "heading": "Values in Python",
+      "text": "Python works with values such as numbers, text, Boolean values and collections. A Boolean value can be True or False.",
+      "code": "active = True"
+    },
+    {
+      "heading": "Variables and functions",
+      "text": "A Python program can use variables to store data and functions to group reusable instructions.",
+      "code": "def greet():\n    print(\"Hi\")"
+    },
+    {
+      "heading": "Python is general-purpose",
+      "text": "Python is not limited to one task. The same language can be used to automate repetitive work, build applications and process data.",
+      "code": ""
+    },
+    {
+      "heading": "Python code is readable",
+      "text": "Readable code is easier to understand, test and maintain. Python avoids much unnecessary punctuation, which keeps beginner programs clean.",
+      "code": ""
+    }
+  ]
+}

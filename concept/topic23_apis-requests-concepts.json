@@ -1,0 +1,62 @@
+{
+  "topic": "23",
+  "title": "APIs & Requests",
+  "intro": "Learn the basic ideas of APIs & Requests in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "API",
+      "text": "An API is a defined way for one program to communicate with another program or service.",
+      "code": ""
+    },
+    {
+      "heading": "HTTP request",
+      "text": "A web API is commonly accessed by sending an HTTP request to a URL.",
+      "code": "GET /users"
+    },
+    {
+      "heading": "GET",
+      "text": "GET requests are generally used to retrieve data from a server.",
+      "code": "GET /users"
+    },
+    {
+      "heading": "POST",
+      "text": "POST requests are commonly used to send data to a server to create or trigger something.",
+      "code": "POST /users"
+    },
+    {
+      "heading": "Response",
+      "text": "An API response contains a status and often data returned by the server.",
+      "code": ""
+    },
+    {
+      "heading": "JSON API data",
+      "text": "Many web APIs send structured data in JSON format because it is compact and easy for programs to parse.",
+      "code": "{\"id\": 1}"
+    },
+    {
+      "heading": "requests library",
+      "text": "The requests library provides a convenient Python interface for making HTTP requests.",
+      "code": "import requests"
+    },
+    {
+      "heading": "requests.get()",
+      "text": "requests.get(url) sends an HTTP GET request and returns a response object.",
+      "code": "r = requests.get(url)"
+    },
+    {
+      "heading": "Status codes",
+      "text": "HTTP status codes describe the result of a request; for example, 200 usually indicates success and 404 indicates not found.",
+      "code": "r.status_code"
+    },
+    {
+      "heading": "Timeouts",
+      "text": "Network requests should use sensible timeouts so a program does not wait forever for a server.",
+      "code": "requests.get(url, timeout=10)"
+    },
+    {
+      "heading": "API errors",
+      "text": "Good API code checks status and handles connection or response errors instead of assuming every request succeeds.",
+      "code": ""
+    }
+  ]
+}

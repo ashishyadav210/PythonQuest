@@ -1,0 +1,62 @@
+{
+  "topic": "09",
+  "title": "Strings",
+  "intro": "Learn the basic ideas of Strings in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "What is a string?",
+      "text": "A string (str) is text stored as a sequence of characters. Strings can use single, double or triple quotes.",
+      "code": "name = \"Python\""
+    },
+    {
+      "heading": "Indexing",
+      "text": "String characters can be accessed by position. Python uses zero-based indexing, so the first character is at index 0.",
+      "code": "s[0]"
+    },
+    {
+      "heading": "Slicing",
+      "text": "A slice selects part of a string using start and stop positions.",
+      "code": "s[1:4]"
+    },
+    {
+      "heading": "upper()",
+      "text": "upper() returns a new string with letters converted to uppercase.",
+      "code": "\"python\".upper()"
+    },
+    {
+      "heading": "lower()",
+      "text": "lower() returns a new string with letters converted to lowercase.",
+      "code": "\"PYTHON\".lower()"
+    },
+    {
+      "heading": "strip()",
+      "text": "strip() removes surrounding whitespace from a string.",
+      "code": "\"  hi  \".strip()"
+    },
+    {
+      "heading": "len()",
+      "text": "len() returns the number of characters in a string.",
+      "code": "len(\"Python\")  # 6"
+    },
+    {
+      "heading": "in operator",
+      "text": "in checks whether a substring or character exists inside a string.",
+      "code": "\"py\" in \"python\""
+    },
+    {
+      "heading": "Joining strings",
+      "text": "The + operator can join strings together.",
+      "code": "\"Hello \" + \"World\""
+    },
+    {
+      "heading": "Strings are immutable",
+      "text": "String methods return new strings rather than changing the original string in place.",
+      "code": "s = \"python\"\ns.upper()"
+    },
+    {
+      "heading": "String methods",
+      "text": "Methods such as replace(), split(), find() and startswith() help process text.",
+      "code": "\"a,b\".split(\",\")"
+    }
+  ]
+}

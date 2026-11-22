@@ -1,0 +1,72 @@
+{
+  "topic": "30",
+  "title": "Final Python Challenge",
+  "intro": "Learn the basic ideas of Final Python Challenge in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Break the problem down",
+      "text": "Large programs are easier to build when the problem is divided into small, understandable parts.",
+      "code": ""
+    },
+    {
+      "heading": "Functions for reusable logic",
+      "text": "Functions group reusable operations and keep repeated logic in one place.",
+      "code": "def calculate_total(...): ..."
+    },
+    {
+      "heading": "Classes for related data",
+      "text": "Classes can model objects that combine related data and behavior.",
+      "code": "class User: ..."
+    },
+    {
+      "heading": "Conditions for decisions",
+      "text": "if, elif and else let a program choose actions based on conditions.",
+      "code": "if score >= 40: ..."
+    },
+    {
+      "heading": "Loops for repetition",
+      "text": "for and while repeat work when a task needs to run multiple times.",
+      "code": "for item in items: ..."
+    },
+    {
+      "heading": "Dictionaries for key-value data",
+      "text": "Dictionaries are useful when values need to be looked up by meaningful keys.",
+      "code": "user = {\"name\": \"Sam\"}"
+    },
+    {
+      "heading": "Exceptions for runtime problems",
+      "text": "try, except and related statements let programs handle expected runtime problems safely.",
+      "code": "try:\n    ...\nexcept ValueError:\n    ..."
+    },
+    {
+      "heading": "Virtual environments for dependencies",
+      "text": "Virtual environments isolate packages so projects can use different dependency sets safely.",
+      "code": "python -m venv .venv"
+    },
+    {
+      "heading": "Parameterized SQL",
+      "text": "Parameterized queries keep values separate from SQL code and reduce SQL injection risk.",
+      "code": "cursor.execute(\"SELECT * FROM users WHERE id=?\", (uid,))"
+    },
+    {
+      "heading": "Automated tests",
+      "text": "Tests check expected behavior and help catch regressions when code changes.",
+      "code": "assert add(2,3) == 5"
+    },
+    {
+      "heading": "Logging and debugging",
+      "text": "Logging records runtime information, while debugging helps inspect and fix incorrect behavior.",
+      "code": "logging.info(\"Started\")"
+    },
+    {
+      "heading": "Generators for large sequences",
+      "text": "Generators produce values lazily and can reduce memory use when a large sequence does not need to exist all at once.",
+      "code": "(x*x for x in nums)"
+    },
+    {
+      "heading": "Clear structure",
+      "text": "Small responsibilities, meaningful names and clear organization make Python programs easier to maintain.",
+      "code": ""
+    }
+  ]
+}

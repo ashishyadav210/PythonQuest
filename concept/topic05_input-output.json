@@ -1,0 +1,57 @@
+{
+  "topic": "05",
+  "title": "Input & Output",
+  "intro": "Learn the basic ideas of Input & Output in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "input()",
+      "text": "input() reads text entered by the user and returns it as a string.",
+      "code": "name = input(\"Name: \")"
+    },
+    {
+      "heading": "print()",
+      "text": "print() sends values to the screen. It can display text, numbers and multiple values.",
+      "code": "print(\"Hello\", name)"
+    },
+    {
+      "heading": "Input is text",
+      "text": "Even when a user types a number, input() initially returns a string.",
+      "code": "age = input(\"Age: \")"
+    },
+    {
+      "heading": "Convert input to int",
+      "text": "Use int() when text input should become a whole number.",
+      "code": "age = int(input(\"Age: \"))"
+    },
+    {
+      "heading": "Convert input to float",
+      "text": "Use float() when a decimal number is required.",
+      "code": "price = float(input(\"Price: \"))"
+    },
+    {
+      "heading": "Prompt text",
+      "text": "A string passed to input() is shown as a prompt to tell the user what to enter.",
+      "code": "input(\"Enter age: \")"
+    },
+    {
+      "heading": "Displaying variables",
+      "text": "A variable can be passed directly to print() to display its current value.",
+      "code": "print(age)"
+    },
+    {
+      "heading": "Multiple values",
+      "text": "print() can receive more than one value and separates them with spaces by default.",
+      "code": "print(\"Age:\", age)"
+    },
+    {
+      "heading": "Output formatting",
+      "text": "f-strings provide a readable way to combine text and variable values.",
+      "code": "print(f\"Age: {age}\")"
+    },
+    {
+      "heading": "Simple input-output flow",
+      "text": "A common beginner program reads data, converts it when needed, processes it and then prints the result.",
+      "code": "age = int(input(\"Age: \"))\nprint(age)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "topic": "24",
+  "title": "SQLite Databases",
+  "intro": "Learn the basic ideas of SQLite Databases in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "SQLite",
+      "text": "SQLite is a lightweight relational database engine that stores data in a local database file.",
+      "code": ""
+    },
+    {
+      "heading": "sqlite3 module",
+      "text": "Python’s sqlite3 module provides an interface for working with SQLite databases.",
+      "code": "import sqlite3"
+    },
+    {
+      "heading": "Connection",
+      "text": "A database connection represents the link between the Python program and the database.",
+      "code": "con = sqlite3.connect(\"app.db\")"
+    },
+    {
+      "heading": "Table",
+      "text": "A table stores related data in rows and columns.",
+      "code": "CREATE TABLE users (...)"
+    },
+    {
+      "heading": "Primary key",
+      "text": "A primary key uniquely identifies each row in a table.",
+      "code": "id INTEGER PRIMARY KEY"
+    },
+    {
+      "heading": "SELECT",
+      "text": "SELECT retrieves rows or columns from a database.",
+      "code": "SELECT * FROM users"
+    },
+    {
+      "heading": "INSERT",
+      "text": "INSERT adds new rows to a table.",
+      "code": "INSERT INTO users(name) VALUES (?)"
+    },
+    {
+      "heading": "UPDATE",
+      "text": "UPDATE changes existing rows that match a condition.",
+      "code": "UPDATE users SET name=? WHERE id=?"
+    },
+    {
+      "heading": "DELETE",
+      "text": "DELETE removes rows that match a condition.",
+      "code": "DELETE FROM users WHERE id=?"
+    },
+    {
+      "heading": "Parameterized queries",
+      "text": "Placeholders and parameters keep user data separate from SQL code and reduce SQL injection risk.",
+      "code": "cur.execute(\"SELECT * FROM users WHERE id=?\", (user_id,))"
+    },
+    {
+      "heading": "Transactions",
+      "text": "A transaction groups database changes so they can be committed together or rolled back when needed.",
+      "code": "con.commit()\ncon.rollback()"
+    }
+  ]
+}

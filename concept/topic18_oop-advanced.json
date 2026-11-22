@@ -1,0 +1,62 @@
+{
+  "topic": "18",
+  "title": "OOP Advanced",
+  "intro": "Learn the basic ideas of OOP Advanced in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Inheritance",
+      "text": "Inheritance lets a child class reuse or extend behavior from a parent class.",
+      "code": "class Child(Parent):\n    pass"
+    },
+    {
+      "heading": "Subclass",
+      "text": "A subclass is a class that inherits from another class.",
+      "code": "class Dog(Animal):\n    pass"
+    },
+    {
+      "heading": "Method overriding",
+      "text": "A child class can provide its own implementation of a method inherited from the parent.",
+      "code": "def speak(self):\n    return \"Woof\""
+    },
+    {
+      "heading": "super()",
+      "text": "super() is commonly used to access parent-class behavior, especially inside an overridden method.",
+      "code": "super().__init__()"
+    },
+    {
+      "heading": "Multiple inheritance",
+      "text": "A class can inherit from more than one base class.",
+      "code": "class C(A, B):\n    pass"
+    },
+    {
+      "heading": "Duck typing",
+      "text": "Duck typing focuses on whether an object supports the needed behavior rather than checking its exact class.",
+      "code": "obj.speak()"
+    },
+    {
+      "heading": "@property",
+      "text": "@property provides attribute-like access to a method, often useful for controlled or computed values.",
+      "code": "@property\ndef age(self): ..."
+    },
+    {
+      "heading": "__str__",
+      "text": "__str__ can customize the readable text representation of an object.",
+      "code": "def __str__(self):\n    return self.name"
+    },
+    {
+      "heading": "Composition",
+      "text": "Composition builds an object by giving it other objects as parts or collaborators.",
+      "code": "class Car:\n    def __init__(self):\n        self.engine = Engine()"
+    },
+    {
+      "heading": "Abstraction",
+      "text": "Abstraction focuses on the important interface while hiding unnecessary implementation details.",
+      "code": ""
+    },
+    {
+      "heading": "Maintainable OOP",
+      "text": "Focused classes, clear responsibilities and sensible reuse usually make object-oriented code easier to maintain.",
+      "code": ""
+    }
+  ]
+}

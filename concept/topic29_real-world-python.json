@@ -1,0 +1,67 @@
+{
+  "topic": "29",
+  "title": "Real-World Python",
+  "intro": "Learn the basic ideas of Real-World Python in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Project structure",
+      "text": "A real Python project is easier to maintain when related responsibilities are separated into clear files and folders.",
+      "code": "project/\n  src/\n  tests/"
+    },
+    {
+      "heading": "README",
+      "text": "A README explains what a project does, how to install it and how to use it.",
+      "code": "README.md"
+    },
+    {
+      "heading": "Version control",
+      "text": "Version control records changes to code so developers can review history, collaborate and restore earlier versions.",
+      "code": "git status"
+    },
+    {
+      "heading": "Git",
+      "text": "Git is a widely used version-control system for tracking source-code changes.",
+      "code": "git add .\ngit commit -m \"Start\""
+    },
+    {
+      "heading": "Virtual environments",
+      "text": "Projects commonly use virtual environments to isolate their dependencies from other projects.",
+      "code": "python -m venv .venv"
+    },
+    {
+      "heading": "Configuration",
+      "text": "Configuration contains values that control an application, such as a development setting or service URL.",
+      "code": "DEBUG = False"
+    },
+    {
+      "heading": "Environment variables",
+      "text": "Environment variables let configuration values be supplied outside the source code, which is useful for deployment and secrets.",
+      "code": "API_URL = os.getenv(\"API_URL\")"
+    },
+    {
+      "heading": "CLI",
+      "text": "A CLI, or command-line interface, lets a user control a program by typing commands in a terminal.",
+      "code": "python app.py --help"
+    },
+    {
+      "heading": "Library",
+      "text": "A library is reusable code that another program can import and use.",
+      "code": "import requests"
+    },
+    {
+      "heading": "Framework",
+      "text": "A framework provides a structure and tools for building an application, often controlling part of the program flow.",
+      "code": ""
+    },
+    {
+      "heading": "Documentation",
+      "text": "Function and project documentation explains behavior, inputs, outputs and usage so other people can work with the code.",
+      "code": "def add(a,b):\n    \"\"\"Return the sum.\"\"\""
+    },
+    {
+      "heading": "Optimization",
+      "text": "Measure a program before optimizing it so effort is focused on real bottlenecks rather than guesses.",
+      "code": ""
+    }
+  ]
+}

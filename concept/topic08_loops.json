@@ -1,0 +1,57 @@
+{
+  "topic": "08",
+  "title": "Loops",
+  "intro": "Learn the basic ideas of Loops in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "for loop",
+      "text": "A for loop repeats over the items of an iterable such as a list, string or range.",
+      "code": "for x in nums:\n    print(x)"
+    },
+    {
+      "heading": "while loop",
+      "text": "A while loop repeats while its condition remains true.",
+      "code": "while count < 3:\n    count += 1"
+    },
+    {
+      "heading": "range()",
+      "text": "range() is commonly used to produce a sequence of numbers for loops. range(3) represents 0, 1 and 2.",
+      "code": "for i in range(3):\n    print(i)"
+    },
+    {
+      "heading": "break",
+      "text": "break immediately leaves the nearest loop.",
+      "code": "if x == 5:\n    break"
+    },
+    {
+      "heading": "continue",
+      "text": "continue skips the rest of the current iteration and moves to the next iteration.",
+      "code": "if x < 0:\n    continue"
+    },
+    {
+      "heading": "Iterable",
+      "text": "An iterable is an object whose values can be visited one by one, such as a list, tuple or string.",
+      "code": "for ch in \"Python\":\n    print(ch)"
+    },
+    {
+      "heading": "Loop counting",
+      "text": "for with range() is useful when a task needs to repeat a known number of times.",
+      "code": "for i in range(1, 6):\n    print(i)"
+    },
+    {
+      "heading": "Infinite while loops",
+      "text": "A while loop can continue forever if its condition never becomes false. Update the state toward a stopping condition.",
+      "code": "while x < 10:\n    x += 1"
+    },
+    {
+      "heading": "Nested loops",
+      "text": "A loop can contain another loop. The inner loop completes its iterations for each outer-loop iteration.",
+      "code": "for i in rows:\n    for j in cols:\n        ..."
+    },
+    {
+      "heading": "Choosing a loop",
+      "text": "Use for when iterating through an iterable is natural; use while when repetition depends mainly on a condition.",
+      "code": ""
+    }
+  ]
+}

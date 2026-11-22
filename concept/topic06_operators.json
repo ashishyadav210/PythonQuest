@@ -1,0 +1,67 @@
+{
+  "topic": "06",
+  "title": "Operators",
+  "intro": "Learn the basic ideas of Operators in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Arithmetic operators",
+      "text": "Arithmetic operators perform calculations. Common ones include +, -, *, /, //, %, and **.",
+      "code": "total = a + b"
+    },
+    {
+      "heading": "Addition (+)",
+      "text": "+ adds numeric values.",
+      "code": "5 + 3  # 8"
+    },
+    {
+      "heading": "Equality (==)",
+      "text": "== compares two values and produces True when they are equal.",
+      "code": "age == 18"
+    },
+    {
+      "heading": "Not equal (!=)",
+      "text": "!= checks whether two values are different.",
+      "code": "age != 18"
+    },
+    {
+      "heading": "Floor division (//)",
+      "text": "// divides and keeps the floor of the result for numbers such as 10 and 3.",
+      "code": "10 // 3  # 3"
+    },
+    {
+      "heading": "Modulo (%)",
+      "text": "% gives the remainder after division.",
+      "code": "10 % 3  # 1"
+    },
+    {
+      "heading": "Exponent (**)",
+      "text": "** raises a number to a power.",
+      "code": "2 ** 3  # 8"
+    },
+    {
+      "heading": "Logical and",
+      "text": "and is True only when both combined conditions are true.",
+      "code": "age > 18 and active"
+    },
+    {
+      "heading": "Logical or",
+      "text": "or is True when at least one combined condition is true.",
+      "code": "admin or owner"
+    },
+    {
+      "heading": "not",
+      "text": "not reverses a Boolean result.",
+      "code": "not True  # False"
+    },
+    {
+      "heading": "Assignment (=)",
+      "text": "= assigns a value to a variable. It is different from ==, which compares values.",
+      "code": "x = 10"
+    },
+    {
+      "heading": "Operator precedence",
+      "text": "Some operators are evaluated before others. Multiplication normally comes before addition.",
+      "code": "2 + 3 * 4  # 14"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "topic": "10",
+  "title": "Lists",
+  "intro": "Learn the basic ideas of Lists in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "What is a list?",
+      "text": "A list is an ordered, changeable collection. Lists are written with square brackets.",
+      "code": "items = [\"a\", \"b\"]"
+    },
+    {
+      "heading": "List indexing",
+      "text": "List items use zero-based indexing, so items[0] is the first item.",
+      "code": "items[0]"
+    },
+    {
+      "heading": "List mutability",
+      "text": "Lists are mutable, which means their contents can be changed after creation.",
+      "code": "items[0] = \"x\""
+    },
+    {
+      "heading": "append()",
+      "text": "append() adds one item to the end of a list.",
+      "code": "items.append(\"c\")"
+    },
+    {
+      "heading": "pop()",
+      "text": "pop() removes and returns an item, and without an index it removes the last item.",
+      "code": "items.pop()"
+    },
+    {
+      "heading": "remove()",
+      "text": "remove(value) deletes the first matching value from a list.",
+      "code": "items.remove(\"b\")"
+    },
+    {
+      "heading": "len()",
+      "text": "len(list) returns the number of items in the list.",
+      "code": "len(items)"
+    },
+    {
+      "heading": "sort()",
+      "text": "sort() changes a list by sorting it in place.",
+      "code": "items.sort()"
+    },
+    {
+      "heading": "sorted()",
+      "text": "sorted(items) creates and returns a new sorted list without changing the original list.",
+      "code": "new = sorted(items)"
+    },
+    {
+      "heading": "Mixed values",
+      "text": "A Python list can contain values of different types, although a consistent type is often easier to work with.",
+      "code": "data = [10, \"Sam\", True]"
+    },
+    {
+      "heading": "List slicing",
+      "text": "A slice can select a range of list items without changing the original list.",
+      "code": "items[1:3]"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "topic": "28",
+  "title": "Best Practices & Security",
+  "intro": "Learn the basic ideas of Best Practices & Security in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "PEP 8",
+      "text": "PEP 8 is the main style guide for Python code. It covers conventions that improve consistency and readability.",
+      "code": ""
+    },
+    {
+      "heading": "Meaningful names",
+      "text": "Names such as total_price and user_name communicate intent better than unclear names.",
+      "code": "total_price = 500"
+    },
+    {
+      "heading": "DRY",
+      "text": "DRY means “Don’t Repeat Yourself”. Avoid unnecessary duplication when a reusable solution is clearer.",
+      "code": ""
+    },
+    {
+      "heading": "KISS",
+      "text": "KISS encourages keeping solutions simple and understandable rather than adding needless complexity.",
+      "code": ""
+    },
+    {
+      "heading": "Input validation",
+      "text": "Validate external input so unexpected or unsafe data does not reach sensitive operations unchecked.",
+      "code": ""
+    },
+    {
+      "heading": "Password security",
+      "text": "Passwords should be stored using a suitable password-hashing method, not as plain text.",
+      "code": ""
+    },
+    {
+      "heading": "SQL injection",
+      "text": "Parameterized SQL queries separate user data from SQL commands and help reduce SQL injection risk.",
+      "code": ""
+    },
+    {
+      "heading": "Least privilege",
+      "text": "Give users, programs and services only the permissions they actually need.",
+      "code": ""
+    },
+    {
+      "heading": "Secrets",
+      "text": "API keys, passwords and private tokens should not be hardcoded into public source code.",
+      "code": ""
+    },
+    {
+      "heading": "Dependencies",
+      "text": "Keeping dependencies updated helps receive bug fixes and security fixes.",
+      "code": "pip install -U package"
+    },
+    {
+      "heading": "Code review",
+      "text": "Reviewing code can catch defects, security issues and maintenance problems before they become larger issues.",
+      "code": ""
+    },
+    {
+      "heading": "Safe errors",
+      "text": "Error messages should help the developer or user without exposing secrets or internal sensitive details.",
+      "code": ""
+    }
+  ]
+}

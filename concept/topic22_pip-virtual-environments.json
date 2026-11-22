@@ -1,0 +1,62 @@
+{
+  "topic": "22",
+  "title": "pip & Virtual Environments",
+  "intro": "Learn the basic ideas of pip & Virtual Environments in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "pip",
+      "text": "pip is the common tool used to install and manage Python packages.",
+      "code": "pip install requests"
+    },
+    {
+      "heading": "Package",
+      "text": "A package is reusable Python code distributed so other programs can install and use it.",
+      "code": ""
+    },
+    {
+      "heading": "Virtual environment",
+      "text": "A virtual environment creates an isolated Python environment for a project’s packages.",
+      "code": "python -m venv .venv"
+    },
+    {
+      "heading": "Create venv",
+      "text": "python -m venv .venv creates a virtual environment directory named .venv.",
+      "code": "python -m venv .venv"
+    },
+    {
+      "heading": "Activate venv",
+      "text": "Activation makes the environment’s Python and installed commands the active ones in many shells.",
+      "code": "source .venv/bin/activate"
+    },
+    {
+      "heading": "pip install",
+      "text": "pip install package downloads and installs the requested package into the active environment.",
+      "code": "pip install requests"
+    },
+    {
+      "heading": "requirements.txt",
+      "text": "requirements.txt records project dependencies so the environment can be recreated more easily.",
+      "code": "pip install -r requirements.txt"
+    },
+    {
+      "heading": "Dependency isolation",
+      "text": "Separate environments prevent packages for one project from interfering with another project.",
+      "code": ""
+    },
+    {
+      "heading": "Version pinning",
+      "text": "A pinned version such as package==1.2.3 records an exact release and can improve reproducibility.",
+      "code": "requests==2.32.0"
+    },
+    {
+      "heading": "pip uninstall",
+      "text": "pip uninstall removes an installed package from the active environment.",
+      "code": "pip uninstall requests"
+    },
+    {
+      "heading": "Secrets",
+      "text": "Passwords and API keys should be kept in secure configuration or environment variables rather than committed into source code.",
+      "code": ""
+    }
+  ]
+}

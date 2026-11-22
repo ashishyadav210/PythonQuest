@@ -1,0 +1,62 @@
+{
+  "topic": "13",
+  "title": "Modules & Packages",
+  "intro": "Learn the basic ideas of Modules & Packages in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Module",
+      "text": "A module is usually a Python file containing code such as functions, classes and variables.",
+      "code": "import math"
+    },
+    {
+      "heading": "import",
+      "text": "import loads a module so its names can be used by the program.",
+      "code": "import math"
+    },
+    {
+      "heading": "from import",
+      "text": "from module import name imports a selected name directly.",
+      "code": "from math import sqrt"
+    },
+    {
+      "heading": "Alias",
+      "text": "An import alias gives an imported module or name a shorter local name.",
+      "code": "import numpy as np"
+    },
+    {
+      "heading": "Package",
+      "text": "A package is a structured collection of Python modules, usually arranged in directories.",
+      "code": "my_package/"
+    },
+    {
+      "heading": "Why modules?",
+      "text": "Modules help split a large program into smaller files and make reusable code easier to manage.",
+      "code": ""
+    },
+    {
+      "heading": "Standard library",
+      "text": "Python includes many ready-to-use standard library modules, such as json, math and datetime.",
+      "code": "import json"
+    },
+    {
+      "heading": "pip",
+      "text": "pip is the common Python package installer used to install packages from package indexes.",
+      "code": "pip install requests"
+    },
+    {
+      "heading": "Virtual environment",
+      "text": "A virtual environment keeps a project’s installed packages isolated from other projects.",
+      "code": "python -m venv .venv"
+    },
+    {
+      "heading": "__name__",
+      "text": "The __name__ variable helps code know whether a module is being imported or run as the main program.",
+      "code": "if __name__ == \"__main__\":"
+    },
+    {
+      "heading": "Dependency versions",
+      "text": "Pinning dependency versions can make an environment more reproducible.",
+      "code": "requests==2.32.0"
+    }
+  ]
+}

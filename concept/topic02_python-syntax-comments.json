@@ -1,0 +1,57 @@
+{
+  "topic": "02",
+  "title": "Python Syntax & Comments",
+  "intro": "Learn the basic ideas of Python Syntax & Comments in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "What is syntax?",
+      "text": "Syntax means the rules used to write valid Python code. If the rules are broken, Python can show a syntax-related error.",
+      "code": "if age >= 18:\n    print(\"Adult\")"
+    },
+    {
+      "heading": "Indentation",
+      "text": "Indentation is the spaces at the beginning of a line. Python uses indentation to show which statements belong to a block.",
+      "code": "if x:\n    print(x)"
+    },
+    {
+      "heading": "Code blocks",
+      "text": "A block is a group of statements controlled by something such as if, for, while or a function. The statements in the block use consistent indentation.",
+      "code": "if x:\n    print(x)\n    print(\"done\")"
+    },
+    {
+      "heading": "Colon after a header",
+      "text": "A colon is normally placed after statements that start a block, such as if, for, while, def and class.",
+      "code": "if score >= 40:"
+    },
+    {
+      "heading": "Comments",
+      "text": "A comment is a note for people reading the code. Python ignores a single-line comment that starts with #.",
+      "code": "# calculate total"
+    },
+    {
+      "heading": "Why comments help",
+      "text": "Short, useful comments can explain why code exists or clarify a non-obvious step. Comments should not replace clear code.",
+      "code": "x = price * quantity  # total"
+    },
+    {
+      "heading": "No normal braces for blocks",
+      "text": "Python normally uses indentation instead of curly braces to mark blocks. This makes the visual structure part of the syntax.",
+      "code": "for x in nums:\n    print(x)"
+    },
+    {
+      "heading": "Consistent indentation",
+      "text": "Using the same indentation style keeps code readable and prevents block-structure errors. Four spaces are the common style.",
+      "code": "if ok:\n    print(\"Yes\")"
+    },
+    {
+      "heading": "IndentationError",
+      "text": "Wrong or inconsistent indentation can raise IndentationError. Check the spaces before the affected statement.",
+      "code": ""
+    },
+    {
+      "heading": "Readable structure",
+      "text": "Good syntax is not only about avoiding errors; it also makes the program structure easy to follow.",
+      "code": ""
+    }
+  ]
+}

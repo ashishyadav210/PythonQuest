@@ -1,0 +1,62 @@
+{
+  "topic": "19",
+  "title": "Iterators & Generators",
+  "intro": "Learn the basic ideas of Iterators & Generators in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Iterable",
+      "text": "An iterable is something that can provide its values one by one, such as a list, tuple or string.",
+      "code": "for x in items: ..."
+    },
+    {
+      "heading": "Iterator",
+      "text": "An iterator produces the next value on request and follows Python’s iteration protocol.",
+      "code": "it = iter(items)"
+    },
+    {
+      "heading": "iter()",
+      "text": "iter() obtains an iterator from an iterable.",
+      "code": "it = iter(items)"
+    },
+    {
+      "heading": "next()",
+      "text": "next() asks an iterator for its next value.",
+      "code": "next(it)"
+    },
+    {
+      "heading": "StopIteration",
+      "text": "When an iterator has no more values, next() raises StopIteration.",
+      "code": ""
+    },
+    {
+      "heading": "Generator",
+      "text": "A generator is a lazy iterator that produces values as needed instead of storing all results at once.",
+      "code": "def nums():\n    yield 1"
+    },
+    {
+      "heading": "yield",
+      "text": "yield produces a value from a generator and pauses it so execution can continue later.",
+      "code": "yield value"
+    },
+    {
+      "heading": "Memory efficiency",
+      "text": "Generators can save memory for large sequences because values are created on demand.",
+      "code": ""
+    },
+    {
+      "heading": "Generator expression",
+      "text": "A generator expression uses parentheses to create values lazily.",
+      "code": "(x*x for x in nums)"
+    },
+    {
+      "heading": "One-time exhaustion",
+      "text": "After a generator or iterator is exhausted, it does not automatically restart from the beginning.",
+      "code": ""
+    },
+    {
+      "heading": "Iterator protocol",
+      "text": "An iterator normally provides __iter__() and __next__() methods.",
+      "code": ""
+    }
+  ]
+}

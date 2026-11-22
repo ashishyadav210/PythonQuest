@@ -1,0 +1,62 @@
+{
+  "topic": "11",
+  "title": "Tuples, Sets & Dictionaries",
+  "intro": "Learn the basic ideas of Tuples, Sets & Dictionaries in simple English. Read the explanation and example first; the quiz asks only from the concepts taught here.",
+  "items": [
+    {
+      "heading": "Tuple",
+      "text": "A tuple is an ordered collection that is generally immutable. It is commonly written with parentheses.",
+      "code": "point = (10, 20)"
+    },
+    {
+      "heading": "Tuple packing",
+      "text": "Several values separated by commas can form a tuple. Parentheses are often optional.",
+      "code": "point = 10, 20"
+    },
+    {
+      "heading": "Tuple unpacking",
+      "text": "Tuple values can be assigned to multiple variables at once.",
+      "code": "x, y = point"
+    },
+    {
+      "heading": "Set",
+      "text": "A set is an unordered collection of unique elements.",
+      "code": "nums = {1, 2, 3}"
+    },
+    {
+      "heading": "Removing duplicates",
+      "text": "Adding duplicate values to a set does not keep separate copies of those values.",
+      "code": "set([1,1,2])"
+    },
+    {
+      "heading": "Set union",
+      "text": "Union combines elements from both sets.",
+      "code": "a | b"
+    },
+    {
+      "heading": "Set intersection",
+      "text": "Intersection keeps elements common to both sets.",
+      "code": "a & b"
+    },
+    {
+      "heading": "Dictionary",
+      "text": "A dictionary stores key-value pairs and is written with braces.",
+      "code": "user = {\"name\": \"Sam\"}"
+    },
+    {
+      "heading": "Dictionary access",
+      "text": "A dictionary value is normally accessed using its key.",
+      "code": "user[\"name\"]"
+    },
+    {
+      "heading": "get()",
+      "text": "get(key) performs a dictionary lookup and can return a default value when the key is missing.",
+      "code": "user.get(\"age\", 0)"
+    },
+    {
+      "heading": "keys/items/values",
+      "text": "keys() gives keys, items() gives key-value pairs, and values() gives values.",
+      "code": "user.items()"
+    }
+  ]
+}
