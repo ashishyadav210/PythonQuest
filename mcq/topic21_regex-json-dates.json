@@ -1,0 +1,201 @@
+{
+  "topic": "21",
+  "title": "Regex, JSON & Dates",
+  "questions": [
+    {
+      "id": "21-01",
+      "question": "Regex is used to...",
+      "options": [
+        "create classes",
+        "match text patterns",
+        "open databases",
+        "run loops"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “match text patterns” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-02",
+      "question": "Which module provides regex?",
+      "options": [
+        "re",
+        "regexpy",
+        "pattern",
+        "textmatch"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “re” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-03",
+      "question": "JSON commonly represents...",
+      "options": [
+        "Python bytecode",
+        "HTML styling",
+        "machine code",
+        "structured data"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “structured data” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-04",
+      "question": "Which module handles JSON?",
+      "options": [
+        "datajson",
+        "js",
+        "json",
+        "jsonlibonly"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “json” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-05",
+      "question": "json.loads converts...",
+      "options": [
+        "Python data to JSON text",
+        "JSON text to Python data",
+        "files to classes",
+        "strings to regex"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “JSON text to Python data” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-06",
+      "question": "json.dumps converts...",
+      "options": [
+        "Python data to JSON text",
+        "JSON text to Python data",
+        "regex to text",
+        "files to lists"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Python data to JSON text” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-07",
+      "question": "Which module provides date/time classes?",
+      "options": [
+        "datepy",
+        "timeonly",
+        "calendarpy",
+        "datetime"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “datetime” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-08",
+      "question": "Regex search can return...",
+      "options": [
+        "always a string",
+        "always a list",
+        "a match object or None",
+        "a file"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a match object or None” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-09",
+      "question": "Why validate input with regex?",
+      "options": [
+        "encrypt passwords automatically",
+        "check expected text patterns",
+        "create databases",
+        "run packages"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “check expected text patterns” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-10",
+      "question": "JSON objects map naturally to Python...",
+      "options": [
+        "dictionaries",
+        "sets only",
+        "tuples only",
+        "integers"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “dictionaries” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-11",
+      "question": "JSON arrays map naturally to Python...",
+      "options": [
+        "sets",
+        "classes",
+        "files",
+        "lists"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “lists” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-12",
+      "question": "What is a raw string useful for in regex?",
+      "options": [
+        "making code faster always",
+        "creating JSON",
+        "reducing escape confusion",
+        "opening files"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “reducing escape confusion” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-13",
+      "question": "Best practice for regex?",
+      "options": [
+        "make one giant pattern",
+        "keep patterns understandable and test them",
+        "avoid testing",
+        "use regex for every task"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “keep patterns understandable and test them” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-14",
+      "question": "Regex is used to... (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "21-15",
+      "question": "Regex is used to... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

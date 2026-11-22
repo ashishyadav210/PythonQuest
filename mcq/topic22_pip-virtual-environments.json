@@ -1,0 +1,201 @@
+{
+  "topic": "22",
+  "title": "pip & Virtual Environments",
+  "questions": [
+    {
+      "id": "22-01",
+      "question": "What is pip?",
+      "options": [
+        "a loop",
+        "a debugger",
+        "a Python package installer",
+        "a web server"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a Python package installer” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-02",
+      "question": "What is a virtual environment?",
+      "options": [
+        "a virtual machine always",
+        "an isolated Python dependency environment",
+        "a database",
+        "a browser"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “an isolated Python dependency environment” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-03",
+      "question": "Which command commonly creates a venv?",
+      "options": [
+        "python -m venv .venv",
+        "python makeenv",
+        "pip venv create",
+        "venv --python"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “python -m venv .venv” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-04",
+      "question": "Which activates a venv on many shells?",
+      "options": [
+        "activate venv only",
+        "pip activate",
+        "python activate",
+        "source .venv/bin/activate"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “source .venv/bin/activate” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-05",
+      "question": "What does pip install package do?",
+      "options": [
+        "removes Python",
+        "creates a class",
+        "installs a package",
+        "runs a loop"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “installs a package” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-06",
+      "question": "Why use requirements.txt?",
+      "options": [
+        "store Python code only",
+        "record dependencies",
+        "store passwords",
+        "replace setup"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “record dependencies” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-07",
+      "question": "Why isolate environments?",
+      "options": [
+        "avoid dependency conflicts",
+        "increase monitor size",
+        "remove packages",
+        "change syntax"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “avoid dependency conflicts” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-08",
+      "question": "What is a package version?",
+      "options": [
+        "a Python variable",
+        "a file mode",
+        "a loop count",
+        "a specific release identifier"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a specific release identifier” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-09",
+      "question": "Why pin versions sometimes?",
+      "options": [
+        "faster typing",
+        "less code always",
+        "reproducibility",
+        "more comments"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “reproducibility” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-10",
+      "question": "What does pip uninstall do?",
+      "options": [
+        "deletes Python",
+        "removes an installed package",
+        "clears variables",
+        "stops a server"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “removes an installed package” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-11",
+      "question": "Where should secrets be stored?",
+      "options": [
+        "secure environment/configuration",
+        "requirements.txt",
+        "source code comments",
+        "public README"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “secure environment/configuration” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-12",
+      "question": "What is dependency management?",
+      "options": [
+        "tracking loops",
+        "tracking comments",
+        "tracking CPU temperature",
+        "tracking required packages and versions"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “tracking required packages and versions” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-13",
+      "question": "Best practice?",
+      "options": [
+        "install everything globally",
+        "ignore versions",
+        "use isolated environments per project",
+        "share secrets in package files"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “use isolated environments per project” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-14",
+      "question": "What is pip? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "22-15",
+      "question": "What is pip? (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "topic": "12",
+  "title": "Functions",
+  "questions": [
+    {
+      "id": "12-01",
+      "question": "Which keyword defines a function?",
+      "options": [
+        "def",
+        "func",
+        "function",
+        "make"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “def” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-02",
+      "question": "What is a parameter?",
+      "options": [
+        "a return value only",
+        "a loop",
+        "a module",
+        "a named input of a function"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a named input of a function” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-03",
+      "question": "What does return do?",
+      "options": [
+        "prints automatically",
+        "starts a loop",
+        "sends a value back",
+        "imports code"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “sends a value back” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-04",
+      "question": "Can a function have default parameters?",
+      "options": [
+        "No",
+        "Yes",
+        "Only classes",
+        "Only modules"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-05",
+      "question": "Why use functions?",
+      "options": [
+        "reuse logic",
+        "avoid all variables",
+        "remove Python syntax",
+        "replace data types"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “reuse logic” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-06",
+      "question": "What is a function call?",
+      "options": [
+        "define a class",
+        "import a file",
+        "create a comment",
+        "run a function"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “run a function” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-07",
+      "question": "Which is a function call?",
+      "options": [
+        "def add",
+        "call add",
+        "add(2,3)",
+        "function add"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “add(2,3)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-08",
+      "question": "What happens if a function has no return?",
+      "options": [
+        "it returns 0",
+        "it returns None",
+        "it returns False",
+        "it repeats"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “it returns None” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-09",
+      "question": "Can a function return multiple values?",
+      "options": [
+        "Yes, commonly as a tuple",
+        "No",
+        "Only a string",
+        "Only a list"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes, commonly as a tuple” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-10",
+      "question": "What is scope?",
+      "options": [
+        "function speed",
+        "file size",
+        "loop count",
+        "where a name can be accessed"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “where a name can be accessed” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-11",
+      "question": "What is a local variable?",
+      "options": [
+        "a global module",
+        "a package",
+        "a variable inside a function",
+        "a class file"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a variable inside a function” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-12",
+      "question": "What does *args collect?",
+      "options": [
+        "extra files",
+        "extra positional arguments",
+        "dictionary keys only",
+        "errors"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “extra positional arguments” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-13",
+      "question": "What does **kwargs collect?",
+      "options": [
+        "extra keyword arguments",
+        "list indexes",
+        "loops",
+        "modules"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “extra keyword arguments” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-14",
+      "question": "Which keyword defines a function? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "12-15",
+      "question": "Which keyword defines a function? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

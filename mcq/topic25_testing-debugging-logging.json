@@ -1,0 +1,201 @@
+{
+  "topic": "25",
+  "title": "Testing, Debugging & Logging",
+  "questions": [
+    {
+      "id": "25-01",
+      "question": "A unit test checks...",
+      "options": [
+        "the whole internet",
+        "a small unit of code",
+        "a database server only",
+        "a monitor"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a small unit of code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-02",
+      "question": "Which keyword creates an assertion?",
+      "options": [
+        "assert",
+        "check",
+        "test",
+        "verify"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “assert” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-03",
+      "question": "Debugging means...",
+      "options": [
+        "writing only comments",
+        "installing packages",
+        "creating a database",
+        "finding and fixing problems"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “finding and fixing problems” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-04",
+      "question": "Logging is useful for...",
+      "options": [
+        "replacing all tests",
+        "hiding errors",
+        "recording useful runtime information",
+        "creating UI"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “recording useful runtime information” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-05",
+      "question": "Which module provides basic logging?",
+      "options": [
+        "logpy",
+        "logging",
+        "debuglog",
+        "loggerOnly"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “logging” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-06",
+      "question": "A breakpoint helps...",
+      "options": [
+        "pause execution while debugging",
+        "speed up loops",
+        "delete variables",
+        "install packages"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “pause execution while debugging” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-07",
+      "question": "Why write tests?",
+      "options": [
+        "make code longer",
+        "avoid functions",
+        "remove syntax",
+        "catch regressions"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “catch regressions” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-08",
+      "question": "A failing test should...",
+      "options": [
+        "always be deleted",
+        "be ignored",
+        "provide information to investigate",
+        "be hidden"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “provide information to investigate” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-09",
+      "question": "What is a traceback?",
+      "options": [
+        "a database row",
+        "information about where an exception occurred",
+        "a package list",
+        "a loop"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “information about where an exception occurred” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-10",
+      "question": "What is a regression?",
+      "options": [
+        "a previously working behavior breaks",
+        "a new feature works",
+        "a variable changes",
+        "a file opens"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a previously working behavior breaks” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-11",
+      "question": "Why log levels exist?",
+      "options": [
+        "to create loops",
+        "to encrypt logs",
+        "to remove tests",
+        "to classify message importance"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “to classify message importance” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-12",
+      "question": "Good logs should avoid...",
+      "options": [
+        "timestamps",
+        "useful context",
+        "sensitive secrets",
+        "error details"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “sensitive secrets” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-13",
+      "question": "Best practice?",
+      "options": [
+        "test nothing",
+        "test important behavior and investigate failures",
+        "log passwords",
+        "ignore tracebacks"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “test important behavior and investigate failures” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-14",
+      "question": "A unit test checks... (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "25-15",
+      "question": "A unit test checks... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

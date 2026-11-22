@@ -1,0 +1,201 @@
+{
+  "topic": "29",
+  "title": "Real-World Python",
+  "questions": [
+    {
+      "id": "29-01",
+      "question": "Which is a good project structure idea?",
+      "options": [
+        "put everything in one file always",
+        "separate related responsibilities",
+        "duplicate code",
+        "hide configuration"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “separate related responsibilities” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-02",
+      "question": "Why use README files?",
+      "options": [
+        "explain how to use a project",
+        "run loops",
+        "store secrets",
+        "replace tests"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “explain how to use a project” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-03",
+      "question": "What is version control used for?",
+      "options": [
+        "run Python automatically",
+        "create databases",
+        "format strings",
+        "track code changes"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “track code changes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-04",
+      "question": "Git is commonly used for...",
+      "options": [
+        "image editing",
+        "SQL only",
+        "version control",
+        "Python interpretation"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “version control” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-05",
+      "question": "Why use virtual environments in projects?",
+      "options": [
+        "make UI",
+        "isolate dependencies",
+        "store users",
+        "replace Git"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “isolate dependencies” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-06",
+      "question": "A configuration file can hold...",
+      "options": [
+        "non-secret settings",
+        "passwords publicly",
+        "Python bytecode only",
+        "loop counters"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “non-secret settings” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-07",
+      "question": "Why use environment variables?",
+      "options": [
+        "create classes",
+        "replace JSON",
+        "write SQL",
+        "configure values outside source code"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “configure values outside source code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-08",
+      "question": "What is a CLI?",
+      "options": [
+        "class list index",
+        "code loop input",
+        "command-line interface",
+        "cloud library import"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “command-line interface” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-09",
+      "question": "What is a library?",
+      "options": [
+        "a database table",
+        "reusable code made available to programs",
+        "a comment",
+        "a browser"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “reusable code made available to programs” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-10",
+      "question": "What is a framework?",
+      "options": [
+        "a structure/tools for building applications",
+        "a Python variable",
+        "a file mode",
+        "an exception"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a structure/tools for building applications” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-11",
+      "question": "Why document functions?",
+      "options": [
+        "increase syntax complexity",
+        "hide parameters",
+        "remove tests",
+        "make usage and behavior clear"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “make usage and behavior clear” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-12",
+      "question": "Why measure before optimizing?",
+      "options": [
+        "make guesses",
+        "avoid profiling",
+        "find real bottlenecks",
+        "increase code length"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “find real bottlenecks” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-13",
+      "question": "A good real-world Python project should be...",
+      "options": [
+        "one giant script",
+        "tested, documented and maintainable",
+        "full of hardcoded secrets",
+        "without error handling"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “tested, documented and maintainable” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-14",
+      "question": "Which is a good project structure idea? (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "29-15",
+      "question": "Which is a good project structure idea? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

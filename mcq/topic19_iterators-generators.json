@@ -1,0 +1,201 @@
+{
+  "topic": "19",
+  "title": "Iterators & Generators",
+  "questions": [
+    {
+      "id": "19-01",
+      "question": "An iterator provides...",
+      "options": [
+        "all files",
+        "only strings",
+        "database rows only",
+        "values one at a time"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “values one at a time” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-02",
+      "question": "Which function gets an iterator from an iterable?",
+      "options": [
+        "iterator()",
+        "nextIter()",
+        "iter()",
+        "make_iter()"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “iter()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-03",
+      "question": "Which gets the next value?",
+      "options": [
+        "advance()",
+        "next()",
+        "getNext()",
+        "move()"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “next()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-04",
+      "question": "A generator function uses...",
+      "options": [
+        "yield",
+        "generate",
+        "returnEach",
+        "produce"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “yield” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-05",
+      "question": "Why use generators?",
+      "options": [
+        "make code always faster",
+        "avoid functions",
+        "create classes",
+        "save memory for large sequences"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “save memory for large sequences” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-06",
+      "question": "yield pauses a generator and...",
+      "options": [
+        "ends Python always",
+        "raises an error",
+        "produces a value",
+        "imports a module"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “produces a value” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-07",
+      "question": "A generator is usually...",
+      "options": [
+        "eager only",
+        "lazy",
+        "a list",
+        "a dictionary"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “lazy” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-08",
+      "question": "What happens when an iterator is exhausted?",
+      "options": [
+        "StopIteration",
+        "EndError",
+        "IteratorDone",
+        "ValueError always"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “StopIteration” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-09",
+      "question": "Which is a generator expression?",
+      "options": [
+        "[yield x]",
+        "gen x in nums",
+        "{yield x}",
+        "(x*x for x in nums)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “(x*x for x in nums)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-10",
+      "question": "Can a generator be iterated once and exhausted?",
+      "options": [
+        "No",
+        "Only lists",
+        "Yes",
+        "Only tuples"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-11",
+      "question": "Why can iteration be memory efficient?",
+      "options": [
+        "all values are duplicated",
+        "values can be produced on demand",
+        "files are compressed",
+        "CPU is disabled"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “values can be produced on demand” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-12",
+      "question": "Which protocol methods are central to iterators?",
+      "options": [
+        "__iter__ and __next__",
+        "__loop__ and __next__",
+        "nextOnly",
+        "iterateOnly"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “__iter__ and __next__” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-13",
+      "question": "Best practice?",
+      "options": [
+        "convert everything to lists",
+        "never yield",
+        "always store every value",
+        "use generators for suitable large/lazy data"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “use generators for suitable large/lazy data” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-14",
+      "question": "An iterator provides... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "19-15",
+      "question": "An iterator provides... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

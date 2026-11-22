@@ -1,0 +1,175 @@
+{
+  "topic": "10",
+  "title": "Lists",
+  "questions": [
+    {
+      "id": "10-01",
+      "question": "Which brackets create a list?",
+      "options": [
+        "{}",
+        "()",
+        "[]",
+        "<>"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “[]” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-02",
+      "question": "Can a list be changed?",
+      "options": [
+        "No",
+        "Yes",
+        "Only once",
+        "Only if empty"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-03",
+      "question": "How do you access the first item?",
+      "options": [
+        "items[0]",
+        "items[1]",
+        "items.first",
+        "items(0)"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “items[0]” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-04",
+      "question": "Which adds one item at the end?",
+      "options": [
+        "addLast()",
+        "pushEnd()",
+        "insertEnd()",
+        "append()"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “append()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-05",
+      "question": "Which removes and returns the last item?",
+      "options": [
+        "removeLast()",
+        "delete()",
+        "pop()",
+        "pull()"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “pop()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-06",
+      "question": "Which returns list length?",
+      "options": [
+        "size(items)",
+        "len(items)",
+        "items.length",
+        "count(items)"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “len(items)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-07",
+      "question": "Can a list contain different types?",
+      "options": [
+        "Yes",
+        "No",
+        "Only numbers",
+        "Only strings"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-08",
+      "question": "Which creates an empty list?",
+      "options": [
+        "{}",
+        "()",
+        "None",
+        "[]"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “[]” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-09",
+      "question": "Which sorts a list in place?",
+      "options": [
+        "order()",
+        "arrange()",
+        "sort()",
+        "sortedIn()"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “sort()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-10",
+      "question": "What does items[1] access?",
+      "options": [
+        "the first item",
+        "the second item",
+        "the last item",
+        "the list length"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “the second item” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-11",
+      "question": "Which removes a specific value?",
+      "options": [
+        "remove()",
+        "deleteValue()",
+        "drop()",
+        "erase()"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “remove()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-12",
+      "question": "Which makes a new sorted list?",
+      "options": [
+        "items.sortNew()",
+        "order(items)",
+        "newsort(items)",
+        "sorted(items)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “sorted(items)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "10-13",
+      "question": "Lists are useful for...",
+      "options": [
+        "only key-value data",
+        "only unique data",
+        "ordered collections",
+        "only text"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “ordered collections” because it is the Python concept described by this question."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "topic": "20",
+  "title": "Decorators & Context Managers",
+  "questions": [
+    {
+      "id": "20-01",
+      "question": "@property is a...",
+      "options": [
+        "decorator",
+        "module",
+        "data type",
+        "loop"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “decorator” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-02",
+      "question": "A decorator usually...",
+      "options": [
+        "opens a file",
+        "creates a database",
+        "sorts a list",
+        "wraps or modifies a function/class"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “wraps or modifies a function/class” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-03",
+      "question": "Which syntax applies a decorator?",
+      "options": [
+        "#decorator",
+        "decorator@",
+        "@decorator",
+        "use decorator"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “@decorator” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-04",
+      "question": "A context manager is commonly used with...",
+      "options": [
+        "using",
+        "with",
+        "context",
+        "openonly"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “with” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-05",
+      "question": "Which methods define a context manager?",
+      "options": [
+        "__enter__ and __exit__",
+        "__start__ and __stop__",
+        "open and close only",
+        "with and end"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “__enter__ and __exit__” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-06",
+      "question": "Why use context managers?",
+      "options": [
+        "avoid functions",
+        "create variables",
+        "replace loops",
+        "manage resources safely"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “manage resources safely” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-07",
+      "question": "functools.wraps helps...",
+      "options": [
+        "make functions faster always",
+        "create classes",
+        "preserve wrapped function metadata",
+        "catch errors"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “preserve wrapped function metadata” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-08",
+      "question": "A decorator can accept...",
+      "options": [
+        "only integers",
+        "a function and return a wrapped function",
+        "only strings",
+        "only files"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a function and return a wrapped function” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-09",
+      "question": "Which is a common use of decorators?",
+      "options": [
+        "logging or authorization",
+        "creating HTML only",
+        "formatting disks",
+        "changing monitor brightness"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “logging or authorization” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-10",
+      "question": "What should a good decorator preserve?",
+      "options": [
+        "random side effects",
+        "global state always",
+        "hidden errors",
+        "clear behavior and metadata where appropriate"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “clear behavior and metadata where appropriate” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-11",
+      "question": "with can be used for...",
+      "options": [
+        "only loops",
+        "only classes",
+        "files and other resources",
+        "only imports"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “files and other resources” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-12",
+      "question": "What should __exit__ help with?",
+      "options": [
+        "creating a list",
+        "cleanup and exception handling",
+        "printing only",
+        "installing packages"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “cleanup and exception handling” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-13",
+      "question": "Advanced decorators should be...",
+      "options": [
+        "small, reusable and understandable",
+        "deeply nested always",
+        "full of globals",
+        "used everywhere"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “small, reusable and understandable” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-14",
+      "question": "@property is a... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "20-15",
+      "question": "@property is a... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

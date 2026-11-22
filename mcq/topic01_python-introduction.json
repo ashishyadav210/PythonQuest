@@ -1,0 +1,175 @@
+{
+  "topic": "01",
+  "title": "Python Introduction",
+  "questions": [
+    {
+      "id": "01-01",
+      "question": "Python is mainly a...",
+      "options": [
+        "markup language",
+        "programming language",
+        "database engine",
+        "web browser"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “programming language” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-02",
+      "question": "Which command prints text?",
+      "options": [
+        "print('Hello')",
+        "input('Hello')",
+        "write('Hello')",
+        "show('Hello')"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “print('Hello')” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-03",
+      "question": "A Python source file normally ends with...",
+      "options": [
+        " .html",
+        " .css",
+        " .sql",
+        " .py"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “ .py” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-04",
+      "question": "Python is popular partly because its syntax is...",
+      "options": [
+        "binary-only",
+        "markup-based",
+        "readable",
+        "hardware-specific"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “readable” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-05",
+      "question": "Which is a valid Python statement?",
+      "options": [
+        "x :=: 10",
+        "x = 10",
+        "10 = x",
+        "set x to 10"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “x = 10” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-06",
+      "question": "What does an interpreter do?",
+      "options": [
+        "runs Python code",
+        "creates a monitor",
+        "stores photos",
+        "formats a hard disk"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “runs Python code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-07",
+      "question": "Python can be used for...",
+      "options": [
+        "only spreadsheets",
+        "only printing",
+        "only networking cables",
+        "automation"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “automation” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-08",
+      "question": "Which is a Python value?",
+      "options": [
+        "<html>",
+        "SELECT *",
+        "True",
+        "#include"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “True” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-09",
+      "question": "Which keyword starts a function?",
+      "options": [
+        "func",
+        "def",
+        "function",
+        "make"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “def” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-10",
+      "question": "Python programs can contain...",
+      "options": [
+        "variables and functions",
+        "only images",
+        "only SQL",
+        "only CSS rules"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “variables and functions” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-11",
+      "question": "Why do beginners often choose Python?",
+      "options": [
+        "no syntax at all",
+        "no need to practice",
+        "only one data type",
+        "simple readable code"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “simple readable code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-12",
+      "question": "Which is a Python collection?",
+      "options": [
+        "paragraph",
+        "selector",
+        "list",
+        "table row"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “list” because it is the Python concept described by this question."
+    },
+    {
+      "id": "01-13",
+      "question": "Which statement is most accurate?",
+      "options": [
+        "Python is only for websites",
+        "Python is general-purpose",
+        "Python is only for games",
+        "Python is only for AI"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “Python is general-purpose” because it is the Python concept described by this question."
+    }
+  ]
+}

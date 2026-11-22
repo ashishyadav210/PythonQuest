@@ -1,0 +1,175 @@
+{
+  "topic": "08",
+  "title": "Loops",
+  "questions": [
+    {
+      "id": "08-01",
+      "question": "Which loop is commonly used to iterate over a sequence?",
+      "options": [
+        "for",
+        "if",
+        "def",
+        "class"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “for” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-02",
+      "question": "Which loop repeats while a condition is true?",
+      "options": [
+        "for",
+        "if",
+        "try",
+        "while"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “while” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-03",
+      "question": "What does range(3) produce values for?",
+      "options": [
+        "1, 2, 3",
+        "0, 1, 2, 3",
+        "0, 1, 2",
+        "3 only"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “0, 1, 2” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-04",
+      "question": "Which keyword exits a loop?",
+      "options": [
+        "stop",
+        "break",
+        "exitloop",
+        "end"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “break” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-05",
+      "question": "Which keyword skips to the next iteration?",
+      "options": [
+        "continue",
+        "skip",
+        "nextloop",
+        "passloop"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “continue” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-06",
+      "question": "What can a for loop iterate over?",
+      "options": [
+        "only integers",
+        "only strings",
+        "only lists",
+        "an iterable"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “an iterable” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-07",
+      "question": "A while loop needs a condition that can...",
+      "options": [
+        "always stay True",
+        "be a string",
+        "change toward stopping",
+        "be a list"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “change toward stopping” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-08",
+      "question": "Which creates a simple loop?",
+      "options": [
+        "loop x [1,2]",
+        "for x in [1,2]:",
+        "repeat x in",
+        "for x = list"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “for x in [1,2]:” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-09",
+      "question": "Why can a while loop become infinite?",
+      "options": [
+        "its condition never becomes false",
+        "for loops cannot stop",
+        "Python has no break",
+        "range is missing"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “its condition never becomes false” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-10",
+      "question": "What does break do?",
+      "options": [
+        "skips one item",
+        "restarts Python",
+        "creates a function",
+        "leaves the loop"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “leaves the loop” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-11",
+      "question": "What does continue do?",
+      "options": [
+        "ends the whole program",
+        "ends Python",
+        "moves to the next iteration",
+        "creates a list"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “moves to the next iteration” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-12",
+      "question": "Which is useful for counting?",
+      "options": [
+        "if only",
+        "for with range()",
+        "class only",
+        "import only"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “for with range()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "08-13",
+      "question": "Best practice for while loops?",
+      "options": [
+        "make the stopping condition clear",
+        "always use True",
+        "never update variables",
+        "avoid testing"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “make the stopping condition clear” because it is the Python concept described by this question."
+    }
+  ]
+}

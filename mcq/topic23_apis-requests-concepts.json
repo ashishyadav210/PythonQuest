@@ -1,0 +1,201 @@
+{
+  "topic": "23",
+  "title": "APIs & Requests",
+  "questions": [
+    {
+      "id": "23-01",
+      "question": "An API is commonly...",
+      "options": [
+        "a database table",
+        "a CSS file",
+        "a Python loop",
+        "an interface for software communication"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “an interface for software communication” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-02",
+      "question": "HTTP is a protocol used for...",
+      "options": [
+        "local variables",
+        "file compression",
+        "web communication",
+        "Python syntax"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “web communication” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-03",
+      "question": "Which HTTP method commonly retrieves data?",
+      "options": [
+        "FETCHALL",
+        "GET",
+        "READONLY",
+        "TAKE"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “GET” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-04",
+      "question": "Which commonly creates/submits data?",
+      "options": [
+        "POST",
+        "SENDONLY",
+        "CREATEWEB",
+        "PUTDATAONLY"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “POST” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-05",
+      "question": "A status code 200 usually means...",
+      "options": [
+        "not found",
+        "server error",
+        "unauthorized",
+        "success"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “success” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-06",
+      "question": "A 404 means...",
+      "options": [
+        "success",
+        "server error",
+        "not found",
+        "redirect"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “not found” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-07",
+      "question": "A 500 indicates...",
+      "options": [
+        "client success",
+        "server-side error",
+        "not found",
+        "authentication success"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “server-side error” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-08",
+      "question": "JSON is often used in APIs because...",
+      "options": [
+        "it is structured and widely supported",
+        "it only works in Python",
+        "it is a database",
+        "it replaces HTTP"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “it is structured and widely supported” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-09",
+      "question": "What library is commonly used for HTTP requests in Python?",
+      "options": [
+        "httpPythonOnly",
+        "webget",
+        "urllibrequestsonly",
+        "requests"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “requests” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-10",
+      "question": "Why set a timeout?",
+      "options": [
+        "increase response size",
+        "disable errors",
+        "avoid waiting forever",
+        "create JSON"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “avoid waiting forever” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-11",
+      "question": "What should API keys be treated as?",
+      "options": [
+        "public data",
+        "secrets",
+        "comments",
+        "HTML"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “secrets” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-12",
+      "question": "What is a response body?",
+      "options": [
+        "data returned by the server",
+        "the URL only",
+        "a Python variable only",
+        "the status code only"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “data returned by the server” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-13",
+      "question": "Best API practice?",
+      "options": [
+        "hardcode secrets",
+        "ignore status codes",
+        "retry forever",
+        "handle errors, timeouts and secrets safely"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “handle errors, timeouts and secrets safely” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-14",
+      "question": "An API is commonly... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "23-15",
+      "question": "An API is commonly... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

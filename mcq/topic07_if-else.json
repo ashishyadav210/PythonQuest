@@ -1,0 +1,175 @@
+{
+  "topic": "07",
+  "title": "if, elif & else",
+  "questions": [
+    {
+      "id": "07-01",
+      "question": "Which keyword starts a condition?",
+      "options": [
+        "when",
+        "check",
+        "case",
+        "if"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “if” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-02",
+      "question": "What does else run for?",
+      "options": [
+        "every path",
+        "only syntax errors",
+        "the alternative path",
+        "imports"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “the alternative path” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-03",
+      "question": "Which keyword checks another condition?",
+      "options": [
+        "elseif",
+        "elif",
+        "then",
+        "caseif"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “elif” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-04",
+      "question": "A condition normally evaluates to...",
+      "options": [
+        "True or False",
+        "a file",
+        "a package",
+        "a loop"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “True or False” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-05",
+      "question": "Which is valid?",
+      "options": [
+        "if age >= 18 then",
+        "if > age 18",
+        "if(age) age",
+        "if age >= 18:"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “if age >= 18:” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-06",
+      "question": "What does == do in a condition?",
+      "options": [
+        "assigns a value",
+        "adds values",
+        "checks equality",
+        "imports data"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “checks equality” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-07",
+      "question": "Why use if?",
+      "options": [
+        "to repeat code",
+        "to make decisions",
+        "to define a class",
+        "to read files"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “to make decisions” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-08",
+      "question": "Can an if contain an else?",
+      "options": [
+        "Yes",
+        "No",
+        "Only in Java",
+        "Only in HTML"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-09",
+      "question": "Can an if contain multiple elif branches?",
+      "options": [
+        "No",
+        "Only one ever",
+        "Only with loops",
+        "Yes"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-10",
+      "question": "Which indentation is correct?",
+      "options": [
+        "if x:\nprint(x)",
+        "if x print(x)",
+        "if x:\n    print(x)",
+        "if x -> print(x)"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “if x:\n    print(x)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-11",
+      "question": "If no if/elif condition is true, else may...",
+      "options": [
+        "always fail",
+        "run",
+        "repeat",
+        "import"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “run” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-12",
+      "question": "What does if 0: mean?",
+      "options": [
+        "the block does not run",
+        "the block always runs",
+        "syntax error",
+        "loop forever"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “the block does not run” because it is the Python concept described by this question."
+    },
+    {
+      "id": "07-13",
+      "question": "Best practice for conditions?",
+      "options": [
+        "make them extremely long",
+        "avoid indentation",
+        "use random operators",
+        "keep them clear and readable"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “keep them clear and readable” because it is the Python concept described by this question."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "topic": "15",
+  "title": "File Handling",
+  "questions": [
+    {
+      "id": "15-01",
+      "question": "Which opens a file?",
+      "options": [
+        "file()",
+        "readFile()",
+        "load()",
+        "open()"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “open()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-02",
+      "question": "Which mode reads a file?",
+      "options": [
+        "read",
+        "RONLY",
+        "r",
+        "input"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “r” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-03",
+      "question": "Which mode writes a file?",
+      "options": [
+        "write",
+        "w",
+        "WONLY",
+        "save"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “w” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-04",
+      "question": "Which reads the whole file?",
+      "options": [
+        "read()",
+        "all()",
+        "getAll()",
+        "scan()"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “read()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-05",
+      "question": "Which reads lines as a list?",
+      "options": [
+        "lines()",
+        "getlines()",
+        "readalllines()",
+        "readlines()"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “readlines()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-06",
+      "question": "Why use with open(...)?",
+      "options": [
+        "it skips reading",
+        "it encrypts files",
+        "it manages closing the file",
+        "it creates folders"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “it manages closing the file” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-07",
+      "question": "What does append mode do?",
+      "options": [
+        "deletes data",
+        "adds data to the end",
+        "reads only",
+        "renames the file"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “adds data to the end” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-08",
+      "question": "What can happen when opening a missing file for read?",
+      "options": [
+        "FileNotFoundError",
+        "MissingFileOnly",
+        "ReadErrorOnly",
+        "None"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “FileNotFoundError” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-09",
+      "question": "Which object represents an opened file?",
+      "options": [
+        "a list always",
+        "a dictionary always",
+        "a string always",
+        "a file object"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a file object” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-10",
+      "question": "Why specify encoding?",
+      "options": [
+        "to speed loops",
+        "to create JSON",
+        "to interpret text correctly",
+        "to avoid variables"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “to interpret text correctly” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-11",
+      "question": "Which writes text?",
+      "options": [
+        "f.print('Hi')",
+        "f.write('Hi')",
+        "f.addText('Hi')",
+        "f.put('Hi')"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “f.write('Hi')” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-12",
+      "question": "What should be done after writing?",
+      "options": [
+        "close the file, or use with",
+        "restart Python",
+        "delete the file",
+        "import it"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “close the file, or use with” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-13",
+      "question": "Best practice?",
+      "options": [
+        "leave files open",
+        "write without checking errors",
+        "mix modes randomly",
+        "use with for file resources"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “use with for file resources” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-14",
+      "question": "Which opens a file? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "15-15",
+      "question": "Which opens a file? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "topic": "04",
+  "title": "Data Types",
+  "questions": [
+    {
+      "id": "04-01",
+      "question": "Which type stores whole numbers?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “int” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-02",
+      "question": "Which type stores decimal numbers?",
+      "options": [
+        "int",
+        "dict",
+        "str",
+        "float"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “float” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-03",
+      "question": "Which type stores text?",
+      "options": [
+        "int",
+        "bool",
+        "str",
+        "set"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “str” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-04",
+      "question": "Which type represents True or False?",
+      "options": [
+        "str",
+        "bool",
+        "float",
+        "list"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “bool” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-05",
+      "question": "Which is a list?",
+      "options": [
+        "[1, 2, 3]",
+        "(1, 2, 3)",
+        "{1,2,3}",
+        "{'a':1}"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “[1, 2, 3]” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-06",
+      "question": "Which is a tuple?",
+      "options": [
+        "[1, 2, 3]",
+        "{1,2,3}",
+        "'1,2,3'",
+        "(1, 2, 3)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “(1, 2, 3)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-07",
+      "question": "Which collection keeps unique elements?",
+      "options": [
+        "list",
+        "str",
+        "set",
+        "tuple"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “set” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-08",
+      "question": "Which is a dictionary?",
+      "options": [
+        "['name','Sam']",
+        "{'name':'Sam'}",
+        "('name','Sam')",
+        "{'name','Sam'}"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “{'name':'Sam'}” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-09",
+      "question": "What does None represent?",
+      "options": [
+        "absence of a value",
+        "zero",
+        "empty text only",
+        "False only"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “absence of a value” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-10",
+      "question": "What is type(5.0)?",
+      "options": [
+        "int",
+        "str",
+        "bool",
+        "float"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “float” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-11",
+      "question": "Which value is a bool?",
+      "options": [
+        "0",
+        "'False'",
+        "False",
+        "None"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “False” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-12",
+      "question": "Which can be changed after creation?",
+      "options": [
+        "tuple",
+        "list",
+        "string",
+        "integer"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “list” because it is the Python concept described by this question."
+    },
+    {
+      "id": "04-13",
+      "question": "Which is a key-value structure?",
+      "options": [
+        "dictionary",
+        "tuple",
+        "string",
+        "float"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “dictionary” because it is the Python concept described by this question."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "topic": "14",
+  "title": "Exception Handling",
+  "questions": [
+    {
+      "id": "14-01",
+      "question": "Which block handles exceptions?",
+      "options": [
+        "if/error",
+        "catch/fail",
+        "try/except",
+        "error/handle"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “try/except” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-02",
+      "question": "Which block runs whether error occurs or not?",
+      "options": [
+        "always",
+        "finally",
+        "last",
+        "end"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “finally” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-03",
+      "question": "Which keyword raises an exception?",
+      "options": [
+        "raise",
+        "throw",
+        "error",
+        "fail"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “raise” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-04",
+      "question": "What is an exception?",
+      "options": [
+        "a variable type",
+        "a module",
+        "a loop",
+        "an event representing an error/problem"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “an event representing an error/problem” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-05",
+      "question": "Why handle exceptions?",
+      "options": [
+        "to hide all bugs",
+        "to speed loops",
+        "to respond safely to errors",
+        "to avoid functions"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “to respond safely to errors” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-06",
+      "question": "Which catches a specific error?",
+      "options": [
+        "catch ValueError",
+        "except ValueError:",
+        "handle ValueError",
+        "error ValueError"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “except ValueError:” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-07",
+      "question": "Can one try have multiple except blocks?",
+      "options": [
+        "Yes",
+        "No",
+        "Only two",
+        "Only one"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-08",
+      "question": "What does else in try/except mean?",
+      "options": [
+        "always runs first",
+        "raises an error",
+        "closes Python",
+        "runs when no exception occurred"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “runs when no exception occurred” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-09",
+      "question": "Should exceptions be silently ignored?",
+      "options": [
+        "Always yes",
+        "Only in development",
+        "Usually no",
+        "Only for syntax"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Usually no” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-10",
+      "question": "Which is a built-in exception?",
+      "options": [
+        "PythonErrorOnly",
+        "TypeError",
+        "CodeError",
+        "SyntaxProblem"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “TypeError” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-11",
+      "question": "What can finally be used for?",
+      "options": [
+        "cleanup work",
+        "creating variables only",
+        "loops only",
+        "imports only"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “cleanup work” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-12",
+      "question": "What does except Exception catch?",
+      "options": [
+        "only syntax",
+        "only keyboard input",
+        "only files",
+        "many exception types"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “many exception types” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-13",
+      "question": "Good exception handling should be...",
+      "options": [
+        "empty",
+        "random",
+        "specific and useful",
+        "used for every line"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “specific and useful” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-14",
+      "question": "Which block handles exceptions? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "14-15",
+      "question": "Which block handles exceptions? (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "topic": "26",
+  "title": "Type Hints & Dataclasses",
+  "questions": [
+    {
+      "id": "26-01",
+      "question": "A type hint mainly...",
+      "options": [
+        "forces every type at runtime",
+        "creates classes",
+        "documents expected types",
+        "installs packages"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “documents expected types” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-02",
+      "question": "Which is a type hint?",
+      "options": [
+        "age int only",
+        "age: int",
+        "int(age)",
+        "type age"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “age: int” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-03",
+      "question": "A dataclass can reduce boilerplate for...",
+      "options": [
+        "data-focused classes",
+        "loops",
+        "files",
+        "regex"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “data-focused classes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-04",
+      "question": "Which decorator creates a dataclass?",
+      "options": [
+        "@data",
+        "@classdata",
+        "@recordonly",
+        "@dataclass"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “@dataclass” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-05",
+      "question": "Which module provides dataclass?",
+      "options": [
+        "data",
+        "typingdata",
+        "dataclasses",
+        "classlib"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “dataclasses” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-06",
+      "question": "Type hints can improve...",
+      "options": [
+        "internet speed",
+        "readability and tooling",
+        "file compression",
+        "screen size"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “readability and tooling” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-07",
+      "question": "Are type hints always enforced by Python at runtime?",
+      "options": [
+        "No",
+        "Yes",
+        "Only integers",
+        "Only classes"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “No” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-08",
+      "question": "Which hint means optional text in modern typing?",
+      "options": [
+        "str?",
+        "optional(str)",
+        "str or none only",
+        "str | None"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “str | None” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-09",
+      "question": "What is a generic type used for?",
+      "options": [
+        "create a database",
+        "run code faster always",
+        "describe parameterized types",
+        "open files"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “describe parameterized types” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-10",
+      "question": "Why use dataclasses?",
+      "options": [
+        "replace all functions",
+        "concise data containers",
+        "avoid modules",
+        "create loops"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “concise data containers” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-11",
+      "question": "Which is a field?",
+      "options": [
+        "an attribute declared in a dataclass",
+        "a loop",
+        "an exception",
+        "an API"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “an attribute declared in a dataclass” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-12",
+      "question": "Good type hints should be...",
+      "options": [
+        "added randomly",
+        "used as comments only",
+        "extremely complex",
+        "accurate and useful"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “accurate and useful” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-13",
+      "question": "Best practice?",
+      "options": [
+        "hint every expression unnecessarily",
+        "never use hints",
+        "use hints where they clarify interfaces",
+        "pretend hints are runtime validation"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “use hints where they clarify interfaces” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-14",
+      "question": "A type hint mainly... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "26-15",
+      "question": "A type hint mainly... (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

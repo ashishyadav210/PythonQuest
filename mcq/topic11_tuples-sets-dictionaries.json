@@ -1,0 +1,201 @@
+{
+  "topic": "11",
+  "title": "Tuples, Sets & Dictionaries",
+  "questions": [
+    {
+      "id": "11-01",
+      "question": "Which collection stores key-value pairs?",
+      "options": [
+        "tuple",
+        "set",
+        "string",
+        "dictionary"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “dictionary” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-02",
+      "question": "Which collection removes duplicates?",
+      "options": [
+        "list",
+        "tuple",
+        "set",
+        "dict"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “set” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-03",
+      "question": "Which collection is immutable?",
+      "options": [
+        "list",
+        "tuple",
+        "set",
+        "dict"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “tuple” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-04",
+      "question": "How do you access a dict value?",
+      "options": [
+        "by key",
+        "by CSS selector",
+        "by file name",
+        "by package"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “by key” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-05",
+      "question": "What does set union combine?",
+      "options": [
+        "only duplicates",
+        "only keys",
+        "only indexes",
+        "elements from both sets"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “elements from both sets” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-06",
+      "question": "Which creates a tuple?",
+      "options": [
+        "[1,2]",
+        "{1,2}",
+        "(1,2)",
+        "{'a':1}"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “(1,2)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-07",
+      "question": "Which creates a set?",
+      "options": [
+        "(1,2)",
+        "{1,2}",
+        "[1,2]",
+        "{'a':1}"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “{1,2}” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-08",
+      "question": "What does d.get('x') help with?",
+      "options": [
+        "safe dictionary lookup",
+        "sorting a list",
+        "opening a file",
+        "creating a class"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “safe dictionary lookup” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-09",
+      "question": "Can a tuple be changed in place?",
+      "options": [
+        "Yes",
+        "Only strings",
+        "Only dictionaries",
+        "No"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “No” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-10",
+      "question": "Which dict method gives keys?",
+      "options": [
+        "itemsOnly()",
+        "keyList()",
+        "keys()",
+        "getKeysOnly()"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “keys()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-11",
+      "question": "Which dict method gives key-value pairs?",
+      "options": [
+        "pairsOnly()",
+        "items()",
+        "valuesKeys()",
+        "pairs()"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “items()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-12",
+      "question": "Which gives dictionary values?",
+      "options": [
+        "values()",
+        "valsOnly()",
+        "getValuesOnly()",
+        "data()"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “values()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-13",
+      "question": "When is a set useful?",
+      "options": [
+        "when order/indexing matters most",
+        "when text is required",
+        "when code must be immutable",
+        "when uniqueness matters"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “when uniqueness matters” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-14",
+      "question": "Which collection stores key-value pairs? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "11-15",
+      "question": "Which collection stores key-value pairs? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

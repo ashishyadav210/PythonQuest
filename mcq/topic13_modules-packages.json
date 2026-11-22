@@ -1,0 +1,201 @@
+{
+  "topic": "13",
+  "title": "Modules & Packages",
+  "questions": [
+    {
+      "id": "13-01",
+      "question": "Which statement imports a module?",
+      "options": [
+        "include math",
+        "import math",
+        "use math",
+        "load math"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “import math” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-02",
+      "question": "What is a module?",
+      "options": [
+        "a Python file/module of code",
+        "a database table",
+        "a browser",
+        "a loop"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a Python file/module of code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-03",
+      "question": "What is a package?",
+      "options": [
+        "a single variable",
+        "a comment",
+        "a data type",
+        "a structured collection of modules"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a structured collection of modules” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-04",
+      "question": "Which imports one name?",
+      "options": [
+        "get math sqrt",
+        "use sqrt from math",
+        "from math import sqrt",
+        "include sqrt"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “from math import sqrt” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-05",
+      "question": "Why use modules?",
+      "options": [
+        "remove functions",
+        "organize and reuse code",
+        "avoid files",
+        "disable Python"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “organize and reuse code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-06",
+      "question": "Which is commonly used for package installation?",
+      "options": [
+        "pip",
+        "npm only",
+        "apt only",
+        "html"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “pip” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-07",
+      "question": "Why use a virtual environment?",
+      "options": [
+        "speed up CPU",
+        "replace Python",
+        "create a database",
+        "isolate project dependencies"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “isolate project dependencies” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-08",
+      "question": "What does import aliasing do?",
+      "options": [
+        "copies the OS",
+        "deletes a module",
+        "gives an imported name another local name",
+        "creates a loop"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “gives an imported name another local name” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-09",
+      "question": "Which is a standard library module?",
+      "options": [
+        "react",
+        "json",
+        "numpyjs",
+        "chrome"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “json” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-10",
+      "question": "Can a project have multiple modules?",
+      "options": [
+        "Yes",
+        "No",
+        "Only one",
+        "Only on Windows"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-11",
+      "question": "What does __name__ often help identify?",
+      "options": [
+        "the Python version only",
+        "a list size",
+        "a database",
+        "how a module is being run"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “how a module is being run” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-12",
+      "question": "Why pin dependencies?",
+      "options": [
+        "to change syntax",
+        "to create comments",
+        "for reproducible environments",
+        "to remove packages"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “for reproducible environments” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-13",
+      "question": "Best practice with imports?",
+      "options": [
+        "import everything randomly",
+        "keep them clear and organized",
+        "repeat imports everywhere",
+        "hide dependencies"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “keep them clear and organized” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-14",
+      "question": "Which statement imports a module? (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "13-15",
+      "question": "Which statement imports a module? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

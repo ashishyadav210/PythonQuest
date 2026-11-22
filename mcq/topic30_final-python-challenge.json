@@ -1,0 +1,201 @@
+{
+  "topic": "30",
+  "title": "Final Python Challenge",
+  "questions": [
+    {
+      "id": "30-01",
+      "question": "What should you do before writing a large program?",
+      "options": [
+        "write everything at once",
+        "skip testing",
+        "break the problem into smaller parts",
+        "avoid functions"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “break the problem into smaller parts” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-02",
+      "question": "Which concept stores reusable logic?",
+      "options": [
+        "comment",
+        "function",
+        "operator",
+        "literal"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “function” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-03",
+      "question": "Which concept models data and behavior?",
+      "options": [
+        "class",
+        "loop",
+        "string",
+        "module only"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “class” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-04",
+      "question": "Which handles runtime problems?",
+      "options": [
+        "comments",
+        "operators",
+        "imports only",
+        "exception handling"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “exception handling” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-05",
+      "question": "Which stores structured key-value data?",
+      "options": [
+        "integer",
+        "float",
+        "dictionary",
+        "boolean"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “dictionary” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-06",
+      "question": "Which is useful for repeated work?",
+      "options": [
+        "comment",
+        "loop",
+        "class name",
+        "file extension"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “loop” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-07",
+      "question": "Which improves project dependency isolation?",
+      "options": [
+        "virtual environment",
+        "print()",
+        "list",
+        "regex"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “virtual environment” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-08",
+      "question": "Which helps prevent SQL injection?",
+      "options": [
+        "string concatenation",
+        "comments",
+        "long SQL strings",
+        "parameterized queries"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “parameterized queries” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-09",
+      "question": "Which helps test code behavior?",
+      "options": [
+        "random prints",
+        "unused variables",
+        "automated tests",
+        "comments only"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “automated tests” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-10",
+      "question": "Which helps inspect runtime problems?",
+      "options": [
+        "CSS",
+        "logging and debugging",
+        "HTML",
+        "SQL only"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “logging and debugging” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-11",
+      "question": "Which can reduce memory use for large sequences?",
+      "options": [
+        "generators",
+        "lists always",
+        "strings",
+        "classes"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “generators” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-12",
+      "question": "Which makes code easier to maintain?",
+      "options": [
+        "duplicate code",
+        "hidden globals",
+        "huge functions",
+        "clear structure and small responsibilities"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “clear structure and small responsibilities” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-13",
+      "question": "What is the goal of learning Python concepts together?",
+      "options": [
+        "memorize syntax without practice",
+        "avoid projects",
+        "build reliable programs from small understandable pieces",
+        "use the longest syntax"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “build reliable programs from small understandable pieces” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-14",
+      "question": "What should you do before writing a large program? (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "30-15",
+      "question": "What should you do before writing a large program? (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

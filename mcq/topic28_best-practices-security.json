@@ -1,0 +1,201 @@
+{
+  "topic": "28",
+  "title": "Best Practices & Security",
+  "questions": [
+    {
+      "id": "28-01",
+      "question": "PEP 8 is mainly about...",
+      "options": [
+        "Python style guidelines",
+        "database security",
+        "web APIs",
+        "file formats"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Python style guidelines” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-02",
+      "question": "Why use meaningful names?",
+      "options": [
+        "speeds CPU",
+        "encrypts data",
+        "changes types",
+        "improves readability"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “improves readability” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-03",
+      "question": "Which is safer for passwords?",
+      "options": [
+        "store plain text",
+        "put in comments",
+        "hash with a suitable password-hashing method",
+        "put in Git"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “hash with a suitable password-hashing method” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-04",
+      "question": "Why validate user input?",
+      "options": [
+        "make Python faster",
+        "reduce unexpected or unsafe data",
+        "avoid functions",
+        "remove errors completely"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “reduce unexpected or unsafe data” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-05",
+      "question": "SQL injection can be reduced by...",
+      "options": [
+        "parameterized queries",
+        "string concatenation",
+        "comments",
+        "long variable names"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “parameterized queries” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-06",
+      "question": "Why keep dependencies updated?",
+      "options": [
+        "to change Python syntax",
+        "to remove tests",
+        "to create loops",
+        "security and fixes"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “security and fixes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-07",
+      "question": "What is least privilege?",
+      "options": [
+        "give everyone admin",
+        "disable passwords",
+        "give only needed permissions",
+        "share keys"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “give only needed permissions” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-08",
+      "question": "Secrets should not be...",
+      "options": [
+        "stored securely",
+        "hardcoded in public source",
+        "rotated when needed",
+        "protected"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “hardcoded in public source” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-09",
+      "question": "Why use code review?",
+      "options": [
+        "catch defects and improve maintainability",
+        "slow every program",
+        "replace tests",
+        "remove documentation"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “catch defects and improve maintainability” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-10",
+      "question": "What is DRY?",
+      "options": [
+        "Data Runs Yearly",
+        "Debug Repeatedly",
+        "Don't Read YAML",
+        "Don't Repeat Yourself"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Don't Repeat Yourself” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-11",
+      "question": "What is KISS?",
+      "options": [
+        "Keep Imports Safe System",
+        "Key Input Security Standard",
+        "Keep It Simple, generally",
+        "Kernel Is Safe Syntax"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Keep It Simple, generally” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-12",
+      "question": "Good error messages should be...",
+      "options": [
+        "full of passwords",
+        "useful without exposing secrets",
+        "silent",
+        "random"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “useful without exposing secrets” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-13",
+      "question": "Best practice?",
+      "options": [
+        "favor clear, secure, maintainable code",
+        "optimize before measuring",
+        "hide all errors",
+        "duplicate logic"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “favor clear, secure, maintainable code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-14",
+      "question": "PEP 8 is mainly about... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "28-15",
+      "question": "PEP 8 is mainly about... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

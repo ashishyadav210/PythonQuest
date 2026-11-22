@@ -1,0 +1,175 @@
+{
+  "topic": "09",
+  "title": "Strings",
+  "questions": [
+    {
+      "id": "09-01",
+      "question": "Which type represents text?",
+      "options": [
+        "int",
+        "str",
+        "list",
+        "bool"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “str” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-02",
+      "question": "How do you access the first character?",
+      "options": [
+        "s[0]",
+        "s[1]",
+        "s.first",
+        "s(0)"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “s[0]” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-03",
+      "question": "Which method makes text uppercase?",
+      "options": [
+        "uppercase()",
+        "up()",
+        "caps()",
+        "upper()"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “upper()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-04",
+      "question": "Which method removes surrounding spaces?",
+      "options": [
+        "trim()",
+        "clean()",
+        "strip()",
+        "space()"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “strip()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-05",
+      "question": "Which operator joins strings?",
+      "options": [
+        "*",
+        "+",
+        "//",
+        "%"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “+” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-06",
+      "question": "What does len('Python') return?",
+      "options": [
+        "6",
+        "5",
+        "7",
+        "Python"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “6” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-07",
+      "question": "Which checks if text contains a part?",
+      "options": [
+        "has",
+        "contains",
+        "inside",
+        "in"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “in” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-08",
+      "question": "What does 'py' in 'python' return?",
+      "options": [
+        "False",
+        "py",
+        "True",
+        "None"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “True” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-09",
+      "question": "Which creates a string?",
+      "options": [
+        "hello",
+        "'hello'",
+        "[hello]",
+        "(hello)"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “'hello'” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-10",
+      "question": "Which method makes lowercase?",
+      "options": [
+        "lower()",
+        "small()",
+        "down()",
+        "case()"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “lower()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-11",
+      "question": "Can strings be indexed?",
+      "options": [
+        "No",
+        "Only numbers",
+        "Only lists",
+        "Yes"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-12",
+      "question": "Are Python strings immutable?",
+      "options": [
+        "No",
+        "Only when empty",
+        "Yes",
+        "Only in loops"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "09-13",
+      "question": "Which is an f-string?",
+      "options": [
+        "'f Hi {name}'",
+        "f'Hi {name}'",
+        "format f name",
+        "f(name)"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “f'Hi {name}'” because it is the Python concept described by this question."
+    }
+  ]
+}

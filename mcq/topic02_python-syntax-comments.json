@@ -1,0 +1,175 @@
+{
+  "topic": "02",
+  "title": "Python Syntax & Comments",
+  "questions": [
+    {
+      "id": "02-01",
+      "question": "What is syntax?",
+      "options": [
+        "a Python package",
+        "a data type",
+        "rules for writing code",
+        "a file extension"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “rules for writing code” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-02",
+      "question": "A single-line Python comment begins with...",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "**"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “#” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-03",
+      "question": "Why is indentation important?",
+      "options": [
+        "it defines code blocks",
+        "it changes data types",
+        "it installs packages",
+        "it creates comments"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “it defines code blocks” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-04",
+      "question": "Which is correctly indented?",
+      "options": [
+        "if x:\nprint(x)",
+        "if x print(x)",
+        "if x then print(x)",
+        "if x:\n    print(x)"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “if x:\n    print(x)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-05",
+      "question": "What does a comment normally do?",
+      "options": [
+        "executes twice",
+        "stores input",
+        "explains code for readers",
+        "creates a loop"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “explains code for readers” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-06",
+      "question": "Which is valid?",
+      "options": [
+        "if age > 18 then",
+        "if age > 18:",
+        "if > 18: age",
+        "if(age > 18) do"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “if age > 18:” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-07",
+      "question": "A colon after if usually means...",
+      "options": [
+        "a block follows",
+        "the program ends",
+        "a string starts",
+        "a package loads"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a block follows” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-08",
+      "question": "Python uses indentation instead of...",
+      "options": [
+        "variables",
+        "functions",
+        "operators",
+        "braces for normal blocks"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “braces for normal blocks” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-09",
+      "question": "Which is a comment?",
+      "options": [
+        "calculate # total",
+        "// calculate total",
+        "# calculate total",
+        "/* calculate total */"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “# calculate total” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-10",
+      "question": "Bad indentation can cause...",
+      "options": [
+        "ValueError only",
+        "IndentationError",
+        "KeyError only",
+        "no effect"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “IndentationError” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-11",
+      "question": "Consistent indentation improves...",
+      "options": [
+        "readability and structure",
+        "internet speed",
+        "screen brightness",
+        "file size"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “readability and structure” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-12",
+      "question": "Can comments be used to leave notes?",
+      "options": [
+        "No",
+        "Only in HTML",
+        "Only in SQL",
+        "Yes"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "02-13",
+      "question": "Which is best style?",
+      "options": [
+        "Indent randomly",
+        "Mix blocks freely",
+        "Use consistent 4-space indentation",
+        "Remove all indentation"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “Use consistent 4-space indentation” because it is the Python concept described by this question."
+    }
+  ]
+}

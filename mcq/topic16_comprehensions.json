@@ -1,0 +1,201 @@
+{
+  "topic": "16",
+  "title": "Comprehensions",
+  "questions": [
+    {
+      "id": "16-01",
+      "question": "A list comprehension creates...",
+      "options": [
+        "a list from an expression/iteration",
+        "a class",
+        "a module",
+        "a file"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a list from an expression/iteration” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-02",
+      "question": "Which is a list comprehension?",
+      "options": [
+        "list x in nums",
+        "for x -> list",
+        "[for x in nums]",
+        "[x*2 for x in nums]"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “[x*2 for x in nums]” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-03",
+      "question": "Can comprehensions have conditions?",
+      "options": [
+        "No",
+        "Only while",
+        "Yes",
+        "Only functions"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-04",
+      "question": "Which filters even numbers?",
+      "options": [
+        "[if x in nums]",
+        "[x for x in nums if x%2==0]",
+        "[x if nums]",
+        "filter x only"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “[x for x in nums if x%2==0]” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-05",
+      "question": "A dict comprehension creates...",
+      "options": [
+        "a dictionary",
+        "a tuple",
+        "a set only",
+        "a string"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a dictionary” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-06",
+      "question": "A set comprehension creates...",
+      "options": [
+        "a list",
+        "a dict",
+        "a file",
+        "a set"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a set” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-07",
+      "question": "Why use comprehensions?",
+      "options": [
+        "avoid all loops",
+        "replace functions",
+        "compact collection creation",
+        "remove conditions"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “compact collection creation” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-08",
+      "question": "Should comprehensions be readable?",
+      "options": [
+        "No",
+        "Yes",
+        "Never",
+        "Only for experts"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-09",
+      "question": "What does range provide?",
+      "options": [
+        "an iterable sequence of numbers",
+        "a dictionary",
+        "a file",
+        "a function"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “an iterable sequence of numbers” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-10",
+      "question": "Which is clearer for complex logic?",
+      "options": [
+        "a huge comprehension",
+        "nested syntax always",
+        "one-line everything",
+        "a normal loop"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a normal loop” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-11",
+      "question": "Can a comprehension call a function?",
+      "options": [
+        "No",
+        "Only built-ins",
+        "Yes",
+        "Only strings"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-12",
+      "question": "What is the output type of [x for x in range(3)]?",
+      "options": [
+        "tuple",
+        "list",
+        "set",
+        "dict"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “list” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-13",
+      "question": "Best practice?",
+      "options": [
+        "use comprehensions when they improve clarity",
+        "always use them",
+        "never use loops",
+        "nest them deeply"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “use comprehensions when they improve clarity” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-14",
+      "question": "A list comprehension creates... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "16-15",
+      "question": "A list comprehension creates... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

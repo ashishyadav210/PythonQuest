@@ -1,0 +1,201 @@
+{
+  "topic": "17",
+  "title": "OOP Basics",
+  "questions": [
+    {
+      "id": "17-01",
+      "question": "A class is...",
+      "options": [
+        "a loop",
+        "a blueprint for objects",
+        "a module only",
+        "a data type only"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a blueprint for objects” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-02",
+      "question": "An object is...",
+      "options": [
+        "an instance of a class",
+        "a function parameter",
+        "a package",
+        "a comment"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “an instance of a class” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-03",
+      "question": "Which method often initializes an object?",
+      "options": [
+        "__start__",
+        "initObject",
+        "constructor()",
+        "__init__"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “__init__” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-04",
+      "question": "What does self refer to?",
+      "options": [
+        "the class file",
+        "the Python interpreter",
+        "the current instance",
+        "the module"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “the current instance” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-05",
+      "question": "Why use OOP?",
+      "options": [
+        "remove functions",
+        "organize related data and behavior",
+        "avoid objects",
+        "replace all loops"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “organize related data and behavior” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-06",
+      "question": "Which creates an object?",
+      "options": [
+        "Car()",
+        "new Car",
+        "object Car",
+        "make Car"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Car()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-07",
+      "question": "What is an attribute?",
+      "options": [
+        "a loop",
+        "an import",
+        "an exception",
+        "data stored on an object/class"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “data stored on an object/class” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-08",
+      "question": "What is a method?",
+      "options": [
+        "a file",
+        "a package",
+        "a function defined in a class",
+        "a variable only"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a function defined in a class” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-09",
+      "question": "Can objects have different attribute values?",
+      "options": [
+        "No",
+        "Yes",
+        "Only integers",
+        "Only strings"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-10",
+      "question": "What does encapsulation help with?",
+      "options": [
+        "keeping data/behavior organized",
+        "creating loops",
+        "reading files",
+        "installing packages"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “keeping data/behavior organized” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-11",
+      "question": "What is inheritance?",
+      "options": [
+        "copying a file",
+        "repeating a loop",
+        "importing JSON",
+        "a class receiving behavior from another class"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a class receiving behavior from another class” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-12",
+      "question": "What is polymorphism?",
+      "options": [
+        "one variable only",
+        "a syntax error",
+        "different objects responding through a common interface",
+        "file handling"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “different objects responding through a common interface” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-13",
+      "question": "Good classes should...",
+      "options": [
+        "do everything in one huge class",
+        "have clear responsibilities",
+        "hide all methods",
+        "avoid names"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “have clear responsibilities” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-14",
+      "question": "A class is... (practice)",
+      "options": [
+        "the same core concept",
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "17-15",
+      "question": "A class is... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

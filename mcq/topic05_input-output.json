@@ -1,0 +1,175 @@
+{
+  "topic": "05",
+  "title": "Input & Output",
+  "questions": [
+    {
+      "id": "05-01",
+      "question": "Which function gets user input?",
+      "options": [
+        "print()",
+        "input()",
+        "read()",
+        "scan()"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “input()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-02",
+      "question": "Which function displays output?",
+      "options": [
+        "print()",
+        "input()",
+        "show()",
+        "output()"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “print()” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-03",
+      "question": "input() normally returns...",
+      "options": [
+        "an integer",
+        "a float",
+        "a list",
+        "a string"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a string” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-04",
+      "question": "Which converts text to an integer?",
+      "options": [
+        "str(10)",
+        "float('x')",
+        "int('10')",
+        "bool('10')"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “int('10')” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-05",
+      "question": "What does print(10) do?",
+      "options": [
+        "reads 10",
+        "displays 10",
+        "stores 10",
+        "deletes 10"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “displays 10” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-06",
+      "question": "Can print() display multiple values?",
+      "options": [
+        "Yes",
+        "No",
+        "Only numbers",
+        "Only strings"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “Yes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-07",
+      "question": "Why use input()?",
+      "options": [
+        "to create a class",
+        "to import a module",
+        "to stop a loop",
+        "to receive user data"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “to receive user data” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-08",
+      "question": "Which is valid?",
+      "options": [
+        "input = name",
+        "get name input",
+        "name = input('Name: ')",
+        "name input()"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “name = input('Name: ')” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-09",
+      "question": "Which displays a variable?",
+      "options": [
+        "show name",
+        "print(name)",
+        "display(name) only",
+        "output name"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “print(name)” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-10",
+      "question": "What does int(input()) do?",
+      "options": [
+        "reads input and converts it to int",
+        "prints input",
+        "creates a string only",
+        "deletes input"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “reads input and converts it to int” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-11",
+      "question": "If user enters 25, input() gives...",
+      "options": [
+        "25.0",
+        "25",
+        "True",
+        "'25'"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “'25'” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-12",
+      "question": "Which is better for a prompt?",
+      "options": [
+        "input age",
+        "read('Enter age: ')",
+        "input('Enter age: ')",
+        "prompt age"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “input('Enter age: ')” because it is the Python concept described by this question."
+    },
+    {
+      "id": "05-13",
+      "question": "Why convert numeric input?",
+      "options": [
+        "Python cannot store numbers",
+        "input starts as text",
+        "print needs integers",
+        "strings cannot be displayed"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “input starts as text” because it is the Python concept described by this question."
+    }
+  ]
+}

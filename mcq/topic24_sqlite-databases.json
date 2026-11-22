@@ -1,0 +1,201 @@
+{
+  "topic": "24",
+  "title": "SQLite Databases",
+  "questions": [
+    {
+      "id": "24-01",
+      "question": "SQLite is...",
+      "options": [
+        "a lightweight database engine",
+        "a web browser",
+        "a Python loop",
+        "a CSS library"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a lightweight database engine” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-02",
+      "question": "Which Python module supports SQLite?",
+      "options": [
+        "sqlpy",
+        "sqlitePythonOnly",
+        "dbsqlite",
+        "sqlite3"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “sqlite3” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-03",
+      "question": "A table stores data in...",
+      "options": [
+        "only files",
+        "only objects",
+        "rows and columns",
+        "only functions"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “rows and columns” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-04",
+      "question": "A primary key...",
+      "options": [
+        "stores passwords automatically",
+        "uniquely identifies rows",
+        "creates loops",
+        "opens files"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “uniquely identifies rows” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-05",
+      "question": "Which SQL retrieves rows?",
+      "options": [
+        "SELECT",
+        "GET",
+        "READ",
+        "FETCHDATA"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “SELECT” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-06",
+      "question": "Which SQL adds rows?",
+      "options": [
+        "ADDROW",
+        "PUTROW",
+        "CREATEVALUE",
+        "INSERT"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “INSERT” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-07",
+      "question": "Which SQL changes rows?",
+      "options": [
+        "CHANGE",
+        "EDITROW",
+        "UPDATE",
+        "MODIFYDATA"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “UPDATE” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-08",
+      "question": "Which SQL removes rows?",
+      "options": [
+        "REMOVEALLSQL",
+        "DELETE",
+        "DROPROWONLY",
+        "ERASE"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “DELETE” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-09",
+      "question": "Why use parameterized queries?",
+      "options": [
+        "reduce SQL injection risk",
+        "make SQL prettier",
+        "create tables automatically",
+        "avoid databases"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “reduce SQL injection risk” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-10",
+      "question": "What is a transaction?",
+      "options": [
+        "a Python variable",
+        "a file",
+        "an API",
+        "a unit of database work"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a unit of database work” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-11",
+      "question": "What does commit do?",
+      "options": [
+        "read rows",
+        "delete tables",
+        "save transaction changes",
+        "close Python"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “save transaction changes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-12",
+      "question": "What does rollback do?",
+      "options": [
+        "sort rows",
+        "undo uncommitted changes",
+        "create a key",
+        "start a loop"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “undo uncommitted changes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-13",
+      "question": "Best database practice?",
+      "options": [
+        "parameterize user input and handle transactions",
+        "build SQL by string concatenation",
+        "ignore errors",
+        "store secrets in queries"
+      ],
+      "answer": 0,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “parameterize user input and handle transactions” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-14",
+      "question": "SQLite is... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "a file format",
+        "the same core concept"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "24-15",
+      "question": "SQLite is... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}

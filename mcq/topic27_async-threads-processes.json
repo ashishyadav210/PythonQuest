@@ -1,0 +1,201 @@
+{
+  "topic": "27",
+  "title": "Async, Threads & Processes",
+  "questions": [
+    {
+      "id": "27-01",
+      "question": "async/await are used for...",
+      "options": [
+        "database schema",
+        "HTML styling",
+        "regex only",
+        "asynchronous programming"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “asynchronous programming” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-02",
+      "question": "Which keyword defines an async function?",
+      "options": [
+        "async function",
+        "await def",
+        "async def",
+        "future def"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “async def” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-03",
+      "question": "Which keyword waits for an awaitable?",
+      "options": [
+        "wait",
+        "await",
+        "pause",
+        "yieldonly"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “await” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-04",
+      "question": "Concurrency can help with...",
+      "options": [
+        "I/O-bound tasks",
+        "every CPU task automatically",
+        "syntax errors",
+        "comments"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “I/O-bound tasks” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-05",
+      "question": "A thread is...",
+      "options": [
+        "a database",
+        "a file",
+        "a module",
+        "a path of execution within a process"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “a path of execution within a process” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-06",
+      "question": "A process has...",
+      "options": [
+        "only one variable",
+        "no code",
+        "its own memory space",
+        "only threads"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “its own memory space” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-07",
+      "question": "CPU-bound work may benefit from...",
+      "options": [
+        "only print",
+        "multiple processes",
+        "only comments",
+        "only JSON"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “multiple processes” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-08",
+      "question": "What is an event loop?",
+      "options": [
+        "it schedules async tasks",
+        "a for loop",
+        "a database loop",
+        "a file loop"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “it schedules async tasks” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-09",
+      "question": "Why avoid blocking calls in async code?",
+      "options": [
+        "they create variables",
+        "they change types",
+        "they install packages",
+        "they can block other tasks"
+      ],
+      "answer": 3,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “they can block other tasks” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-10",
+      "question": "What does gather commonly do?",
+      "options": [
+        "create a class",
+        "read a file",
+        "run multiple awaitables together",
+        "sort a list"
+      ],
+      "answer": 2,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “run multiple awaitables together” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-11",
+      "question": "Thread safety concerns...",
+      "options": [
+        "comments",
+        "shared mutable state",
+        "strings only",
+        "imports only"
+      ],
+      "answer": 1,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “shared mutable state” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-12",
+      "question": "A race condition occurs when...",
+      "options": [
+        "timing affects shared state results",
+        "a loop is slow",
+        "a file is missing",
+        "a type hint is wrong"
+      ],
+      "answer": 0,
+      "difficulty": "easy",
+      "explanation": "The correct answer is “timing affects shared state results” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-13",
+      "question": "Best practice?",
+      "options": [
+        "make everything async",
+        "share mutable state freely",
+        "ignore blocking operations",
+        "choose concurrency based on workload"
+      ],
+      "answer": 3,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “choose concurrency based on workload” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-14",
+      "question": "async/await are used for... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "a different topic",
+        "the same core concept",
+        "a file format"
+      ],
+      "answer": 2,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    },
+    {
+      "id": "27-15",
+      "question": "async/await are used for... (practice)",
+      "options": [
+        "an unrelated syntax rule",
+        "the same core concept",
+        "a different topic",
+        "a file format"
+      ],
+      "answer": 1,
+      "difficulty": "hard",
+      "explanation": "The correct answer is “the same core concept” because it is the Python concept described by this question."
+    }
+  ]
+}
