@@ -121,7 +121,7 @@ You can run PythonQuest locally without installing any additional frameworks.
 **Step 1 — Clone the Repository**
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ashishyadav210/PythonQuest.git
 ```
 
 **Step 2 — Open Project Folder**
@@ -172,45 +172,22 @@ PythonQuest is a static website and can be hosted using:
 
 No backend server or database is required for the current version.
 
-## 🔧 Configuration
-
-You can customize social links and quiz settings in:
-
-```text
-js/config.js
-```
-
-Available configuration options include:
-
-- Social media links
-- Quiz passing score
-- XP reward per completed topic
 
 ## 📸 Screenshots
 
-Screenshots of PythonQuest will be added here.
+Explore the PythonQuest interface and its interactive learning experience.
 
-<!-- Add your screenshots inside a screenshots folder -->
+### 🏠 Home Page
+![PythonQuest Home](screenshots/home.png)
 
-```text
-screenshots/
-├── home.png
-├── roadmap.png
-├── lesson.png
-└── quiz.png
-```
+### 📚 Learning Roadmap
+![PythonQuest Roadmap](screenshots/roadmap.png)
 
-## 🔮 Future Improvements
+### 📖 Lesson Page
+![PythonQuest Lesson](screenshots/lesson.png)
 
-Some ideas for future development:
-
-- [ ] Interactive Python code editor
-- [ ] User accounts and cloud progress synchronization
-- [ ] More practical coding challenges
-- [ ] Additional language support
-- [ ] Achievement badges
-- [ ] Learning certificates
-- [ ] Advanced progress statistics
+### 📝 Quiz Interface
+![PythonQuest Quiz](screenshots/quiz.png)
 
 ## 🤝 Contributing
 
@@ -237,7 +214,13 @@ Let's make Python learning easier for everyone!
 
 ## 📜 License
 
-No separate LICENSE file is currently included. Please contact the developer for permission before redistributing or reusing the project.
+PythonQuest is licensed under the **MIT License**.
+
+You are free to use, copy, modify, distribute, and use this project for personal or commercial purposes. You must include the original copyright notice and MIT License in all copies or substantial portions of the software.
+
+See the [LICENSE](LICENSE) file for complete license details.
+
+**Copyright © 2026 Ashish Yadav.**
 
 ---
 
